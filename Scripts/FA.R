@@ -2,6 +2,7 @@
 
 #PACKAGES REQUIRED
 library(ggplot2) #nice plots
+library(RColorBrewer) #define number of colors you want from brewer palette
 library(cowplot) #nice plots
 library(gtable) #align plots
 library(gridExtra) #nice plots
@@ -11,7 +12,8 @@ library(tidyverse) #manipulate datasets
 library(MASS) #for NMDS statistics
 library(vegan) #for NMDS statistics
 library(pairwiseAdonis) #PERMANVA test
-library(RColorBrewer) #define number of colors you want from brewer palette
+library(ggpmisc) #stat_poly_eq() function
+
 
 #FUNCTION TO ALIGN PLOTS:
 AlignPlots <- function(...) {
@@ -94,8 +96,8 @@ data.scores$FAME <- ordered(data.scores$FAME, levels=c("terrFA",
                                                        "SAFA", 
                                                        "MUFA",
                                                        "BAFA",
-                                                       "n-3 PUFA",
-                                                       "n-6 PUFA"))
+                                                       "n-6 PUFA",
+                                                       "n-3 PUFA"))
 #PLOT
 Fig_FA.NMDS <- ggplot(data=data.scores,aes(x=NMDS1,y=NMDS2)) + 
   geom_point(aes(shape = FAME, fill = FAME), size=4) + # add the point markers
@@ -481,3 +483,220 @@ Fig_FA.heatmaps
 
 #save figure as image
 ggsave("Figures/Fig_FA.heatmaps.jpeg", width = 15, height = 10, units = "cm")
+
+
+#BIPLOTS diet-consumer or river-lake
+#input file
+#input file
+BIPLOTdf <- read.csv("Data/FA_biplots.csv", stringsAsFactors = T)
+str(BIPLOTdf)
+
+BIPLOTdf$FAME  <- ordered(BIPLOTdf$FAME , levels=c("terrFA",
+                                             "SAFA",
+                                             "MUFA",
+                                             "BAFA",
+                                             "n-6 PUFA",
+                                            "n-3 PUFA"))
+my.formula <- y ~ x
+
+Fig_BI_A <- ggplot(BIPLOTdf, aes(x=RIVERw, y=LAKEw)) + 
+  geom_point(aes(shape = FAME, fill = FAME), size=4) + # add the point markers
+  scale_shape_manual(name = "FAME",
+                     values =c("terrFA" = 21,
+                               "SAFA" = 21,
+                               "MUFA" = 22,
+                               "BAFA" = 23,
+                               "n-6 PUFA" = 24,
+                               "n-3 PUFA" = 25))+
+  scale_fill_manual(name = "FAME",
+                    values=c("terrFA" = "orangered", 
+                             "SAFA" = "darkorange",
+                             "MUFA"="yellow", 
+                             "BAFA"="deepskyblue",
+                             "n-6 PUFA"="chartreuse3",
+                             "n-3 PUFA"="chartreuse" )) +
+  geom_errorbar(data = BIPLOTdf, 
+                mapping = aes(x = RIVERw,
+                              ymin = LAKEw - LAKEsd, 
+                              ymax = LAKEw + LAKEsd), 
+                width = 0, inherit.aes = FALSE) +
+  geom_errorbarh(data = BIPLOTdf, 
+                 mapping = aes(y = LAKEw,
+                               xmin = RIVERw - RIVERsd,
+                               xmax = RIVERw + RIVERsd),
+                 height = 0, inherit.aes = FALSE)+
+  xlim(0, 65)+
+  xlab("BR winter seston FA (%)")+
+  ylim(0,65)+
+  ylab("LF winter seston FA (%)")+
+  geom_smooth(method=lm , color="black", fill="grey80", se=FALSE, formula = my.formula) +
+  stat_poly_eq(formula = my.formula, 
+               aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
+               parse = TRUE, size=2)+
+  geom_abline(intercept = 0, color = "grey20")+
+  theme(text = element_text(size = 10))+
+  theme(panel.background = element_rect(fill = "white", colour = "black"),
+        legend.position = "none")
+
+Fig_BI_A 
+
+Fig_BI_B <- ggplot(BIPLOTdf, aes(x=LAKEw, y=DAPw)) + 
+  geom_point(aes(fill = FAME),  shape = 22,  size=4) + 
+  geom_errorbarh(data = BIPLOTdf, 
+                 mapping = aes(y = DAPw,
+                               xmin = LAKEw - LAKEsd,
+                               xmax = LAKEw + LAKEsd),
+                 height = 0, inherit.aes = FALSE)+
+  scale_fill_manual(name = "FAME",
+                    values=c("terrFA" = "orangered", 
+                             "SAFA" = "darkorange",
+                             "MUFA"="yellow", 
+                             "BAFA"="deepskyblue",
+                             "n-6 PUFA"="chartreuse3",
+                            "n-3 PUFA"="chartreuse" )) +
+  xlim(0, 65)+
+  xlab("LF winter seston FA (%)")+
+  ylim(0,65)+
+  ylab("LF winter Daphnia FA (%)")+
+  geom_abline(intercept = 0, color = "grey20")+
+  theme(text = element_text(size = 10))+
+  theme(panel.background = element_rect(fill = "white", colour = "black"),
+                                        legend.position = "none")
+
+Fig_BI_B
+
+Fig_BI_C <- ggplot(BIPLOTdf, aes(x=LAKEw, y=CALAw)) + 
+  geom_point(aes(fill = FAME),  shape = 25,  size=4) + 
+  geom_errorbarh(data = BIPLOTdf, 
+                 mapping = aes(y = CALAw,
+                               xmin = LAKEw - LAKEsd,
+                               xmax = LAKEw + LAKEsd),
+                 height = 0, inherit.aes = FALSE)+
+  scale_fill_manual(name = "FAME",
+                    values=c("terrFA" = "orangered", 
+                             "SAFA" = "darkorange",
+                             "MUFA"="yellow", 
+                             "BAFA"="deepskyblue",
+                             "n-6 PUFA"="chartreuse3",
+                             "n-3 PUFA"="chartreuse" )) +
+  xlim(0, 65)+
+  xlab("LF winter seston FA (%)")+
+  ylim(0,65)+
+  ylab("LF winter Calanoids FA (%)")+
+  geom_abline(intercept = 0, color = "grey20")+
+  theme(text = element_text(size = 10))+
+  theme(panel.background = element_rect(fill = "white", colour = "black"),
+                                        legend.position = "none")
+
+
+Fig_BI_C
+
+
+#final plot 
+Fig_FA.biplots <- plot_grid(Fig_BI_A,Fig_BI_B, Fig_BI_C, 
+          align="hv", axis="tblr",
+          ncol = 3, nrow = 1,  
+          labels =c("a","b","c"))
+
+#View plot
+Fig_FA.biplots
+
+#save figure as image --> no legends because slightly different!
+ggsave("Figures/Fig_FA.biplots.jpeg", width = 20, height = 8, units = "cm")
+
+#biplots individual figures saved
+Fig_BI_A <- ggplot(BIPLOTdf, aes(x=RIVERw, y=LAKEw)) + 
+  geom_point(aes(shape = FAME, fill = FAME), size=4) + # add the point markers
+  scale_shape_manual(name = "FAME",
+                     values =c("terrFA" = 21,
+                               "SAFA" = 21,
+                               "MUFA" = 22,
+                               "BAFA" = 23,
+                               "n-6 PUFA" = 24,
+                               "n-3 PUFA" = 25))+
+  scale_fill_manual(name = "FAME",
+                    values=c("terrFA" = "orangered", 
+                             "SAFA" = "darkorange",
+                             "MUFA"="yellow", 
+                             "BAFA"="deepskyblue",
+                             "n-6 PUFA"="chartreuse3",
+                             "n-3 PUFA"="chartreuse" )) +
+  geom_errorbar(data = BIPLOTdf, 
+                mapping = aes(x = RIVERw,
+                              ymin = LAKEw - LAKEsd, 
+                              ymax = LAKEw + LAKEsd), 
+                width = 0, inherit.aes = FALSE) +
+  geom_errorbarh(data = BIPLOTdf, 
+                 mapping = aes(y = LAKEw,
+                               xmin = RIVERw - RIVERsd,
+                               xmax = RIVERw + RIVERsd),
+                 height = 0, inherit.aes = FALSE)+
+  xlim(0, 65)+
+  xlab("BR winter seston FA (%)")+
+  ylim(0,65)+
+  ylab("LF winter seston FA (%)")+
+  geom_smooth(method=lm , color="black", fill="grey80", se=FALSE, formula = my.formula) +
+  stat_poly_eq(formula = my.formula, 
+               aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
+               parse = TRUE, size=2)+
+  geom_abline(intercept = 0, color = "grey20")+
+  theme(text = element_text(size = 10))+
+  theme(panel.background = element_rect(fill = "white", colour = "black"))
+
+Fig_BI_A 
+ggsave("Figures/Fig_BI_A.jpeg", width = 8, height = 5, units = "cm")
+
+
+Fig_BI_B <- ggplot(BIPLOTdf, aes(x=LAKEw, y=DAPw)) + 
+  geom_point(aes(fill = FAME),  shape = 22,  size=4) + 
+  geom_errorbarh(data = BIPLOTdf, 
+                 mapping = aes(y = DAPw,
+                               xmin = LAKEw - LAKEsd,
+                               xmax = LAKEw + LAKEsd),
+                 height = 0, inherit.aes = FALSE)+
+  scale_fill_manual(name = "FAME",
+                    values=c("terrFA" = "orangered", 
+                             "SAFA" = "darkorange",
+                             "MUFA"="yellow", 
+                             "BAFA"="deepskyblue",
+                             "n-6 PUFA"="chartreuse3",
+                             "n-3 PUFA"="chartreuse" )) +
+  xlim(0, 65)+
+  xlab("LF winter seston FA (%)")+
+  ylim(0,65)+
+  ylab("LF winter Daphnia FA (%)")+
+  geom_abline(intercept = 0, color = "grey20")+
+  theme(text = element_text(size = 10))+
+  theme(panel.background = element_rect(fill = "white", colour = "black"),
+        legend.position = "right")
+
+Fig_BI_B
+ggsave("Figures/Fig_BI_B.jpeg", width = 8, height = 5, units = "cm")
+
+Fig_BI_C <- ggplot(BIPLOTdf, aes(x=LAKEw, y=CALAw)) + 
+  geom_point(aes(fill = FAME),  shape = 25,  size=4) + 
+  geom_errorbarh(data = BIPLOTdf, 
+                 mapping = aes(y = CALAw,
+                               xmin = LAKEw - LAKEsd,
+                               xmax = LAKEw + LAKEsd),
+                 height = 0, inherit.aes = FALSE)+
+  scale_fill_manual(name = "FAME",
+                    values=c("terrFA" = "orangered", 
+                             "SAFA" = "darkorange",
+                             "MUFA"="yellow", 
+                             "BAFA"="deepskyblue",
+                             "n-6 PUFA"="chartreuse3",
+                             "n-3 PUFA"="chartreuse" )) +
+  xlim(0, 65)+
+  xlab("LF winter seston FA (%)")+
+  ylim(0,65)+
+  ylab("LF winter Calanoids FA (%)")+
+  geom_abline(intercept = 0, color = "grey20")+
+  theme(text = element_text(size = 10))+
+  theme(panel.background = element_rect(fill = "white", colour = "black"),
+        legend.position = "right")
+
+
+Fig_BI_C
+ggsave("Figures/Fig_BI_C.jpeg", width = 8, height = 5, units = "cm")
+
