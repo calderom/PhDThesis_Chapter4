@@ -1,4 +1,4 @@
-#SIA and CNP content data
+#SIA data
 
 #PACKAGES REQUIRED
 library(ggplot2) #nice plots
