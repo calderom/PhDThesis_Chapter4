@@ -487,7 +487,6 @@ ggsave("Figures/Fig_FA.heatmaps.jpeg", width = 15, height = 10, units = "cm")
 
 #BIPLOTS diet-consumer or river-lake
 #input file
-#input file
 BIPLOTdf <- read.csv("Data/FA_biplots.csv", stringsAsFactors = T)
 str(BIPLOTdf)
 
