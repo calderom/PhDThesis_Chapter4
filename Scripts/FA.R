@@ -143,14 +143,14 @@ str(FAMEdf)
 #terrFA
 FAMEdf_terrFA <-FAMEdf[FAMEdf$FAME %in% "terrFA",]
 FAMEdf_terrFA$FA_ID  <- ordered(FAMEdf_terrFA$FA_ID, levels=c("C20:0", 
-                                                       "C22:0", 
-                                                       "C23:0",
-                                                       "C24:0"))
+                                                              "C22:0", 
+                                                              "C23:0",
+                                                              "C24:0"))
 FAMEdf_terrFA$Samples  <- ordered(FAMEdf_terrFA$Samples, levels=c("LAKEw", 
-                                                              "RIVERw", 
-                                                              "DAPw",
-                                                              "CALAw",
-                                                              "CALAa"))
+                                                                  "RIVERw", 
+                                                                  "DAPw",
+                                                                  "CALAw",
+                                                                  "CALAa"))
 
 # Define the number of colors you want
 nb.cols <- 4
@@ -173,13 +173,13 @@ A_terrFA
 #SAFA
 FAMEdf_SAFA <-FAMEdf[FAMEdf$FAME %in% "SAFA",]
 FAMEdf_SAFA$FA_ID  <- ordered(FAMEdf_SAFA$FA_ID, levels=c("C17:0", 
-                                                              "C18:0", 
-                                                              "C21:0"))
+                                                          "C18:0", 
+                                                          "C21:0"))
 FAMEdf_SAFA$Samples  <- ordered(FAMEdf_SAFA$Samples, levels=c("LAKEw", 
-                                                                  "RIVERw", 
-                                                                  "DAPw",
-                                                                  "CALAw",
-                                                                  "CALAa"))
+                                                              "RIVERw", 
+                                                              "DAPw",
+                                                              "CALAw",
+                                                              "CALAa"))
 
 # Define the number of colors you want
 nb.cols <- 3
@@ -191,7 +191,7 @@ B_SAFA <-
   scale_fill_manual(name = "SAFA",
                     values = mycolors)+
   scale_x_discrete(labels=c("LAKEw", "RIVERw", "DAPw", "CALAw", "CALAa")) +
-    ylab(~paste("Fatty Acid ", "(ugFAME", "·mgDW"^-1, ")")) +
+  ylab(~paste("Fatty Acid ", "(ugFAME", "·mgDW"^-1, ")")) +
   theme(text = element_text(size = 10),
         axis.title.x = element_blank(),
         #axis.title.y = element_blank(),
@@ -277,18 +277,18 @@ D_BAFA
 #n-6 PUFA
 FAMEdf_n6PUFA <-FAMEdf[FAMEdf$FAME %in% "n-6 PUFA",]
 FAMEdf_n6PUFA$FA_ID  <- ordered(FAMEdf_n6PUFA$FA_ID, levels=c("C18:2n-6trans", 
-                                                          "C18:2n-6cis", 
-                                                          "C18:3n-6",
-                                                          "C20:2n-6",
-                                                          "C20:3n-6",
-                                                          "C20:4n-6",
-                                                          "C22:2n-6",
-                                                          "C22:4n-6"))
+                                                              "C18:2n-6cis", 
+                                                              "C18:3n-6",
+                                                              "C20:2n-6",
+                                                              "C20:3n-6",
+                                                              "C20:4n-6",
+                                                              "C22:2n-6",
+                                                              "C22:4n-6"))
 FAMEdf_n6PUFA$Samples  <- ordered(FAMEdf_n6PUFA$Samples, levels=c("LAKEw", 
-                                                              "RIVERw", 
-                                                              "DAPw",
-                                                              "CALAw",
-                                                              "CALAa"))
+                                                                  "RIVERw", 
+                                                                  "DAPw",
+                                                                  "CALAw",
+                                                                  "CALAa"))
 
 # Define the number of colors you want
 nb.cols <- 8
@@ -345,10 +345,10 @@ F_n3PUFA
 #Omega ratio
 FAMEdf_omega <-FAMEdf[FAMEdf$FAME %in% "Omega ratio",]
 FAMEdf_omega$Samples  <- ordered(FAMEdf_omega$Samples, levels=c("LAKEw", 
-                                                                  "RIVERw", 
-                                                                  "DAPw",
-                                                                  "CALAw",
-                                                                  "CALAa"))
+                                                                "RIVERw", 
+                                                                "DAPw",
+                                                                "CALAw",
+                                                                "CALAa"))
 
 G_omega <- 
   ggplot(FAMEdf_omega, aes(x = Samples, y =  value))+ 
@@ -367,10 +367,10 @@ G_omega
 #Essential ratio
 FAMEdf_essential <-FAMEdf[FAMEdf$FAME %in% "Essential ratio",]
 FAMEdf_essential$Samples  <- ordered(FAMEdf_omega$Samples, levels=c("LAKEw", 
-                                                                "RIVERw", 
-                                                                "DAPw",
-                                                                "CALAw",
-                                                                "CALAa"))
+                                                                    "RIVERw", 
+                                                                    "DAPw",
+                                                                    "CALAw",
+                                                                    "CALAa"))
 
 H_essential <- 
   ggplot(FAMEdf_essential, aes(x = Samples, y =  value))+ 
@@ -476,9 +476,9 @@ ggsave("Figures/Fig_FA.differences.jpeg", width = 15, height = 5, units = "cm")
 plotsaligned <- AlignPlots(Fig_FA.retention,Fig_FA.differences)
 
 Fig_FA.heatmaps <- do.call("plot_grid", c(plotsaligned, 
-                                            ncol = 1, 
-                                            nrow = 2, 
-                                            labels =c("a","b")))
+                                          ncol = 1, 
+                                          nrow = 2, 
+                                          labels =c("a","b")))
 Fig_FA.heatmaps
 
 #save figure as image
@@ -491,11 +491,11 @@ BIPLOTdf <- read.csv("Data/FA_biplots.csv", stringsAsFactors = T)
 str(BIPLOTdf)
 
 BIPLOTdf$FAME  <- ordered(BIPLOTdf$FAME , levels=c("terrFA",
-                                             "SAFA",
-                                             "MUFA",
-                                             "BAFA",
-                                             "n-6 PUFA",
-                                            "n-3 PUFA"))
+                                                   "SAFA",
+                                                   "MUFA",
+                                                   "BAFA",
+                                                   "n-6 PUFA",
+                                                   "n-3 PUFA"))
 my.formula <- y ~ x
 
 Fig_BI_A <- ggplot(BIPLOTdf, aes(x=RIVERw, y=LAKEw)) + 
@@ -552,7 +552,7 @@ Fig_BI_B <- ggplot(BIPLOTdf, aes(x=LAKEw, y=DAPw)) +
                              "MUFA"="yellow", 
                              "BAFA"="deepskyblue",
                              "n-6 PUFA"="chartreuse3",
-                            "n-3 PUFA"="chartreuse" )) +
+                             "n-3 PUFA"="chartreuse" )) +
   xlim(0, 65)+
   xlab("LF winter seston FA (%)")+
   ylim(0,65)+
@@ -560,7 +560,7 @@ Fig_BI_B <- ggplot(BIPLOTdf, aes(x=LAKEw, y=DAPw)) +
   geom_abline(intercept = 0, color = "grey20")+
   theme(text = element_text(size = 10))+
   theme(panel.background = element_rect(fill = "white", colour = "black"),
-                                        legend.position = "none")
+        legend.position = "none")
 
 Fig_BI_B
 
@@ -585,7 +585,7 @@ Fig_BI_C <- ggplot(BIPLOTdf, aes(x=LAKEw, y=CALAw)) +
   geom_abline(intercept = 0, color = "grey20")+
   theme(text = element_text(size = 10))+
   theme(panel.background = element_rect(fill = "white", colour = "black"),
-                                        legend.position = "none")
+        legend.position = "none")
 
 
 Fig_BI_C
@@ -593,9 +593,9 @@ Fig_BI_C
 
 #final plot 
 Fig_FA.biplots <- plot_grid(Fig_BI_A,Fig_BI_B, Fig_BI_C, 
-          align="hv", axis="tblr",
-          ncol = 3, nrow = 1,  
-          labels =c("a","b","c"))
+                            align="hv", axis="tblr",
+                            ncol = 3, nrow = 1,  
+                            labels =c("a","b","c"))
 
 #View plot
 Fig_FA.biplots
@@ -698,4 +698,3 @@ Fig_BI_C <- ggplot(BIPLOTdf, aes(x=LAKEw, y=CALAw)) +
 
 Fig_BI_C
 ggsave("Figures/Fig_BI_C.jpeg", width = 8, height = 5, units = "cm")
-

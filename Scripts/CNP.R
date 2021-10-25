@@ -7,7 +7,7 @@ library(cowplot) #nice plots
 library(gtable) #align plots
 library(gridExtra) #nice plots
 library(tidyverse) #manipulate datasets
-
+library(dplyr) #manipulate datasets
 
 library (TimeSeries) #for timeseries
 library(lubridate) #for timeseries
@@ -293,46 +293,74 @@ str(stoich)
 stoich$Date <- as.Date(stoich$Date,"%d/%m/%Y")
 names(stoich)
 
-#NUTRIENT CONTENT#
+#pivot long stoich dataframe to plot
+C_content <- stoich %>% 
+  select(Date, sestonC, zooC) %>%
+  pivot_longer(cols = -("Date"), names_to = "Variable", values_to = "Value")
 
-a <- ggplot(stoich, aes(x = Date, y = sestonC))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "orange", width=6)+ 
-  ylab("Seston C (uM)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+N_content <- stoich %>% 
+  select(Date, sestonN, zooN) %>%
+  pivot_longer(cols = -("Date"), names_to = "Variable", values_to = "Value")
+
+P_content <- stoich %>% 
+  select(Date, sestonP, zooP) %>%
+  pivot_longer(cols = -("Date"), names_to = "Variable", values_to = "Value")
+
+CN_ratio <- stoich %>% 
+  select(Date, sestonC.N, zooC.N) %>%
+  pivot_longer(cols = -("Date"), names_to = "Variable", values_to = "Value")
+
+CP_ratio <- stoich %>% 
+  select(Date, sestonC.P, zooC.P) %>%
+  pivot_longer(cols = -("Date"), names_to = "Variable", values_to = "Value")
+
+NP_ratio <- stoich %>% 
+  select(Date, sestonN.P, zooN.P) %>%
+  pivot_longer(cols = -("Date"), names_to = "Variable", values_to = "Value")
+
+
+#NUTRIENT CONTENT
+a <- ggplot(C_content, aes(x = Date, y = Value, group=Variable))+ 
+  geom_line()+
+  geom_point(aes(fill=Variable), shape = 21, color="black", size=2)+
+  scale_fill_manual(name = "Fractions",
+                    values=c("sestonC" = "orange", 
+                             "zooC" = "orange4")) +
+  ylab("C content (uM)")+
+  scale_x_date(breaks=date_breaks("2 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-b <- ggplot(stoich, aes(x = Date, y = sestonN))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "green", width=6)+ 
-  ylab("Seston N (uM)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+        text = element_text(size = 10), axis.title.x = element_blank(),
+        legend.position = "right")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+a
+b <- ggplot(N_content, aes(x = Date, y = Value, group=Variable))+ 
+  geom_line()+
+  geom_point(aes(fill=Variable), shape = 21, color="black", size=2)+
+  scale_fill_manual(name = "Fractions",
+                    values=c("sestonN" = "green", 
+                             "zooN" = "green4")) +
+  ylab("N content (uM)")+
+  scale_x_date(breaks=date_breaks("2 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-c <- ggplot(stoich, aes(x = Date, y = sestonP))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "deeppink", width=6)+ 
-  ylab("Seston P (uM)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+        text = element_text(size = 10), axis.title.x = element_blank(),
+        legend.position = "right")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+b
+c <- ggplot(P_content, aes(x = Date, y = Value, group=Variable))+ 
+  geom_line()+
+  geom_point(aes(fill=Variable), shape = 21, color="black", size=2)+
+  scale_fill_manual(name = "Fractions",
+                    values=c("sestonP" = "deeppink", 
+                             "zooP" = "deeppink4")) +
+  ylab("P content (uM)")+
+  scale_x_date(breaks=date_breaks("2 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-d <- ggplot(stoich, aes(x = Date, y = zooC))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "orange", width=6)+ 
-  ylab("Zooplankton C (uM)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
-  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-e <- ggplot(stoich, aes(x = Date, y = zooN))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "green", width=6)+ 
-  ylab("Zooplankton N (uM)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
-  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-f <- ggplot(stoich, aes(x = Date, y = zooP))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "deeppink", width=6)+ 
-  ylab("Zooplankton P (uM)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
-  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-g <- ggplot(stoich, aes(x = sestonC, y = zooC))+ 
-  geom_point(colour = "black", fill = "orange", size=5, shape=21)+ 
+        text = element_text(size = 10), axis.title.x = element_blank(),
+        legend.position = "right")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+c
+d <- ggplot(stoich, aes(x = sestonC, y = zooC))+ 
+  geom_point(colour = "black", fill = "orange2", size=3, shape=21)+ 
   ylab("Zooplankton C (uM)")+
   ylim(0,20)+
   xlab("Seston C (uM)")+
@@ -340,9 +368,9 @@ g <- ggplot(stoich, aes(x = sestonC, y = zooC))+
   geom_text(data=stoich,aes(x=sestonC,y=zooC,label=Date),size=2,vjust=2, alpha = 0.8, check_overlap = T) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10))
-
-h <- ggplot(stoich, aes(x = sestonN, y = zooN))+ 
-  geom_point(colour = "black", fill = "green", size=5, shape=21)+ 
+d
+e <- ggplot(stoich, aes(x = sestonN, y = zooN))+ 
+  geom_point(colour = "black", fill = "green2", size=3, shape=21)+ 
   ylab("Zooplankton N (uM)")+
   ylim(0,2)+
   xlab("Seston N (uM)")+
@@ -350,9 +378,9 @@ h <- ggplot(stoich, aes(x = sestonN, y = zooN))+
   geom_text(data=stoich,aes(x=sestonN,y=zooN,label=Date),size=2,vjust=2, alpha = 0.8, check_overlap = T) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10))
-
-i <- ggplot(stoich, aes(x = sestonP, y = zooP))+ 
-  geom_point(colour = "black", fill = "deeppink", size=5, shape=21)+ 
+e
+f <- ggplot(stoich, aes(x = sestonP, y = zooP))+ 
+  geom_point(colour = "black", fill = "deeppink2", size=3, shape=21)+ 
   ylab("Zooplankton P (uM)")+
   ylim(0,0.06)+
   xlab("Seston P (uM)")+
@@ -360,12 +388,12 @@ i <- ggplot(stoich, aes(x = sestonP, y = zooP))+
   geom_text(data=stoich,aes(x=sestonP,y=zooP,label=Date),size=2,vjust=2, alpha = 0.8, check_overlap = T) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10))
-
+f
 
 contentPlot <- plot_grid(a,b,c,
                          d,e,f,
-                         g,h,i,
-                         align="hv", axis="tblr", ncol = 3)
+                         align="hv", axis="tblr", ncol = 3,
+                         labels =c("a","b", "c","d","e", "f"))
 title <- ggdraw() + 
   draw_label("Nutrient content (2018-2019)",
              fontface = 'bold',
@@ -377,60 +405,62 @@ title <- ggdraw() +
 NutrientContent <- plot_grid(title, contentPlot, ncol=1, rel_heights = c(0.1, 1))
 
 #save figure as image 
-ggsave("Figures/NutrientContent.jpeg", width = 28, height = 18, units = "cm")
+ggsave("Figures/NutrientContent.jpeg", width = 28, height = 15, units = "cm")
 
 
-
-
-#NUTRIENT RATIOS#
-a <- ggplot(stoich, aes(x = Date, y = sestonC.N))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
-  ylab("Seston C:N (molar)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+#NUTRIENT RATIOS
+a <- ggplot(CN_ratio, aes(x = Date, y = Value, group=Variable))+ 
+  geom_line()+
+  geom_point(aes(fill=Variable), shape = 21, color="black", size=2)+
+  scale_fill_manual(name = "Fractions",
+                    values=c("sestonC.N" = "grey60", 
+                             "zooC.N" = "grey20")) +
+  ylab("C:N ratio (molar)")+
+  scale_x_date(breaks=date_breaks("2 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-b <- ggplot(stoich, aes(x = Date, y = sestonC.P))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
-  ylab("Seston C:P (molar)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+        text = element_text(size = 10), axis.title.x = element_blank(),
+        legend.position = "right")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+a
+b <- ggplot(CP_ratio, aes(x = Date, y = Value, group=Variable))+ 
+  geom_line()+
+  geom_point(aes(fill=Variable), shape = 21, color="black", size=2)+
+  scale_fill_manual(name = "Fractions",
+                    values=c("sestonC.P" = "grey60", 
+                             "zooC.P" = "grey20")) +
+  ylab("C:P ratio (molar)")+
+  scale_x_date(breaks=date_breaks("2 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-c <- ggplot(stoich, aes(x = Date, y = sestonN.P))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
-  ylab("Seston N:P (molar)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+        text = element_text(size = 10), axis.title.x = element_blank(),
+        legend.position = "right")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+b
+c <- ggplot(NP_ratio, aes(x = Date, y = Value, group=Variable))+ 
+  geom_line()+
+  geom_point(aes(fill=Variable), shape = 21, color="black", size=2)+
+  scale_fill_manual(name = "Fractions",
+                    values=c("sestonN.P" = "grey60", 
+                             "zooN.P" = "grey20")) +
+  ylab("N:P ratio (molar)")+
+  scale_x_date(breaks=date_breaks("2 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-d <- ggplot(stoich, aes(x = Date, y = zooC.N))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
-  ylab("Zooplankton C:N (molar)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
-  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-e <- ggplot(stoich, aes(x = Date, y = zooC.P))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
-  ylab("Zooplankton C:P (molar)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
-  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-f <- ggplot(stoich, aes(x = Date, y = zooN.P))+ 
-  geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
-  ylab("Zooplankton N:P (molar)")+
-  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
-  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
-        text = element_text(size = 10), axis.title.x = element_blank())
-g <- ggplot(stoich, aes(x = sestonC.N, y = zooC.N))+ 
-  geom_point(colour = "black", fill = "grey40", size=5, shape=21)+ 
+        text = element_text(size = 10), axis.title.x = element_blank(),
+        legend.position = "right")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+c
+d <- ggplot(stoich, aes(x = sestonC.N, y = zooC.N))+ 
+  geom_point(colour = "black", fill = "grey40", size=3, shape=21)+ 
   ylab("Zooplankton C:N (molar)")+
   ylim(0,20)+
   xlab("Seston C:N (molar)")+
-  xlim(0,80)+
+  xlim(-5,80)+
   geom_text(data=stoich,aes(x=sestonC.N,y=zooC.N,label=Date),size=2,vjust=2, alpha = 0.8, check_overlap = T) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10))+
   geom_abline(intercept = 0, slope = 1, size = 1, linetype=2)
-h <- ggplot(stoich, aes(x = sestonC.P, y = zooC.P))+ 
-  geom_point(colour = "black", fill = "grey40", size=5, shape=21)+ 
+d
+e <- ggplot(stoich, aes(x = sestonC.P, y = zooC.P))+ 
+  geom_point(colour = "black", fill = "grey40", size=3, shape=21)+ 
   ylab("Zooplankton C:P (molar)")+
   ylim(0,400)+
   xlab("Seston C:P (molar)")+
@@ -439,8 +469,9 @@ h <- ggplot(stoich, aes(x = sestonC.P, y = zooC.P))+
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10))+
   geom_abline(intercept = 0, slope = 1, size = 1, linetype=2)
-i <- ggplot(stoich, aes(x = sestonN.P, y = zooN.P))+ 
-  geom_point(colour = "black", fill = "grey40", size=5, shape=21)+ 
+e
+f <- ggplot(stoich, aes(x = sestonN.P, y = zooN.P))+ 
+  geom_point(colour = "black", fill = "grey40", size=3, shape=21)+ 
   ylab("Zooplankton N:P (molar)")+
   ylim(0,60)+
   xlab("Seston N:P (molar)")+
@@ -449,12 +480,13 @@ i <- ggplot(stoich, aes(x = sestonN.P, y = zooN.P))+
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10))+
   geom_abline(intercept = 0, slope = 1, size = 1, linetype=2)
+f
 
 
 ratiosPlot <- plot_grid(a,b,c,
                         d,e,f,
-                        g,h,i,
-                        align="hv", axis="tblr", ncol = 3)
+                        align="hv", axis="tblr", ncol = 3,
+                        labels =c("a","b", "c","d","e", "f"))
 title <- ggdraw() + 
   draw_label("Nutrient ratios (2018-2019)",
              fontface = 'bold',
@@ -466,11 +498,10 @@ title <- ggdraw() +
 NutrientRatios <- plot_grid(title, ratiosPlot, ncol=1, rel_heights = c(0.1, 1))
 
 #save figure as image 
-ggsave("Figures/NutrientRatios.jpeg", width = 28, height = 18, units = "cm")
+ggsave("Figures/NutrientRatios.jpeg", width = 28, height = 15, units = "cm")
 
 
 #NUTRIENT IMBALANCES#
-
 a <- ggplot(stoich, aes(x = Date, y = C.Nimb))+ 
   geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
   ylab("C:N imbalance")+
@@ -513,84 +544,3 @@ NutrientImbalances <- plot_grid(title, imbPlot, ncol=1, rel_heights = c(0.1, 1))
 ggsave("Figures/NutrientImbalances.jpeg", width = 28, height = 10, units = "cm")
 
 
-#Test for normal residuals
-#Serial correlations between time series = Durbin-Watson test (for normal residuals)
-#If no temporal correlation because time gap too large then we can use Pearson coefficient
-#If there is temporal correlation then we need to account for it by:
-    #GLM add temporal correlation structure
-    #p-value based on boot-strapping 
-#https://rdrr.io/cran/DHARMa/man/testTemporalAutocorrelation.html 
-?testTemporalAutocorrelation()
-
-#https://cran.r-project.org/web/packages/DHARMa/vignettes/DHARMa.html
-install.packages("DHARMa")
-library(DHARMa)
-citation("DHARMa")
-
-#Also in car package with more than 1 lag 
-library(car)
-#https://www.statology.org/durbin-watson-test-r/ 
-#H0 (null hypothesis): There is no correlation among the residuals.
-#HA (alternative hypothesis): The residuals are autocorrelated.
-
-testData_C <- stoich %>% select(Date, sestonC, zooC) 
-
-#linear model
-fittedModel_C <- lm(zooC ~ sestonC, data = testData_C)
-
-#Residual diagnostics
-res <- simulateResiduals(fittedModel_C)
-plot(res)
-
-#Durbin-Watson test: only one lag!
-testTemporalAutocorrelation(res, time =  testData_C$Date)
-  #DW=2.119
-  #p-value = 0.7586
-  #alternative hypothesis: true autocorrelation is not 0 = residuals are autocorrelated
-
-#Durbin-Watson test: >1 lag!
-durbinWatsonTest(fittedModel_C)
-  #DW=2.16
-  #p-value = 0.794
-  #alternative hypothesis: rho != 0 = residuals are autocorrelated
-
-#p-value using bootstrapping
-install.packages("boot")
-library(boot)
-
-testData_C <- stoich %>% select(sestonC, zooC) 
-testData_C <- as.data.frame(testData_C)
-x <- testData_C$sestonC
-y <- testData_C$zooC
-dat <- data.frame(x,y)
-
-set.seed(1)
-b3 <- boot(testData_C, 
-           statistic = function(testData_C, i) {
-             cor(testData_C[i, "x"], testData_C[i, "y"], method='pearson')
-           },
-           R = 1000
-)
-
-#https://www.datacamp.com/community/tutorials/bootstrap-r
-
-foo <- function(data, indices, cor.type){
-  dt<-data[indices,]
-  c(
-    cor(dt[,1], dt[,2], method=cor.type),
-    median(dt[,1]),
-    median(dt[,2])
-  )
-}
-
-set.seed(100)
-myBootstrap <- boot(testData_C, foo, R=1000, cor.type='s')
-
-myBootstrap
-
-plot(myBootstrap, index=1) #Here index=1 is a Spearman's correlation coefficient
-
-boot.ci(myBootstrap, index=1)
-boot.ci(myBootstrap, index=1, type=c('basic','perc'))
-
-#https://math.montana.edu/jobo/st446/documents/bootcorr.r 
