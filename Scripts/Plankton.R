@@ -1,4 +1,6 @@
 #PHYTOPLANKTON & ZOOPLANKTON PLOTS
+#RELATIONSHIPS BETWEEN PLANKTON AND NUTRIENT RATIOS
+#FECUNDITY PLOTS
 
 #PACKAGES REQUIRED
 library(ggplot2) #nice plots
@@ -403,9 +405,182 @@ plank_biomC
 ggsave("Figures/plank_biomC.jpeg", width = 15, height = 8, units = "cm")
 
 
+#RELATIONSHIPS BETWEEN PLANKTON AND NUTRIENT RATIOS
+#input file
+ESplankdf <- read.csv("Data/ES_plankton.csv", stringsAsFactors = T)
+ESplankdf$Date <- as.Date(ESplankdf$Date,"%d/%m/%Y")
+str(ESplankdf)
+names(ESplankdf)
+summary(ESplankdf)
+
+#Diatoms relative biovolume vs Si:TP ratio
+diat_SiTP <- ESplankdf %>% 
+  select(Date, Diatoms.RelBiov,Si.TP.molar) %>%
+  pivot_longer(cols = -("Date"), names_to = "Variable", values_to = "Value")
+diat_SiTP$Variable <- as.factor(diat_SiTP$Variable)
+diat_SiTP$Variable <- recode_factor(diat_SiTP$Variable,
+                                    Diatoms.RelBiov = "Diatoms", 
+                                    Si.TP.molar = "Si:TP ratio")
 
 
+diatoms_ratio <- ggplot(diat_SiTP, aes(x = Date, y = Value, group=Variable))+ 
+  geom_line()+
+  geom_point(aes(fill=Variable), shape = 21, color="black", size=2)+
+  scale_fill_manual(name = "Variables",
+                    values=c("Diatoms" = "gray60", 
+                             "Si:TP ratio" = "violetred")) +
+  ylab("Values")+
+  xlab("Year (2018-2019)")+
+  scale_x_date(breaks=date_breaks("2 month"),labels=date_format("%b")) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10),
+        legend.position = "right")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+diatoms_ratio
+
+diatoms_scatt <- ggplot(ESplankdf, aes(x = Si.TP.molar, y = Diatoms.RelBiov))+ 
+  geom_point(colour = "black", fill = "black", size=2, shape=21)+ 
+  ylab("Diatoms relative biovolume (%)")+
+  ylim(0,100)+
+  xlab("Si:TP ratio (molar)")+
+  xlim(0,150)+
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10))+
+  geom_smooth(method=lm, se=TRUE, colour="black", fill="black", alpha = 0.3)
+  
+diatoms_scatt
+
+diatomsPlot <- plot_grid(diatoms_ratio,diatoms_scatt,
+                        align="hv", axis="tblr", ncol = 2,
+                        labels =c("a","b"))
+diatomsPlot
+
+#save figure as image 
+ggsave("Figures/diatomsPlot.jpeg", width = 20, height = 10, units = "cm")
+
+#zooplankton community ratio (higer N require taxa vs higher P require taxa) vs seston N:P ratio
+sestonNP <- ggplot(ESplankdf, aes(x = Date, y = sestonN.P))+ 
+  geom_line()+
+  geom_point( shape=21, color="black", fill="grey60", size=3)+
+  ylab("Seston N:P")+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+sestonNP
+
+zoo_ratio <- ggplot(ESplankdf, aes(x = Date, y = ln_ZooNZooPtaxaDW))+ 
+  geom_line()+
+  geom_point( shape=21, color="black", fill="grey20", size=3)+
+  ylab("ln(ZooN:ZooP)")+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+zoo_ratio 
+
+zoo_sestonNP <- ggplot(ESplankdf, aes(x = sestonN.P, y = ln_ZooNZooPtaxaDW))+ 
+  geom_point(colour = "black", fill = "black", size=3, shape=21)+ 
+  ylab("ln(ZooN:ZooP)")+
+  xlab("Seston N:P")+
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10))+
+  geom_smooth(method=lm, se=TRUE, colour="black", fill="black", alpha = 0.3)
+zoo_sestonNP 
 
 
+zoo_seston <- plot_grid(sestonNP,
+                        zoo_ratio,
+                        zoo_sestonNP,
+                      align="hv", axis="tblr", ncol = 1, nrow=3,
+                      labels =c("a","b","c"))
+
+title <- ggdraw() + 
+  draw_label("Lough Feeagh 2018-2019 period",
+             fontface = 'bold',
+             x = 0,
+             hjust = 0
+  ) +
+  theme(plot.margin = margin(0, 0, 0, 7))
+
+zoo_sestonPlot <- plot_grid(title, zoo_seston, ncol=1, rel_heights = c(0.1, 1))
 
 
+#save figure as image 
+ggsave("Figures/zoo_sestonPlot.jpeg", width = 10, height = 20, units = "cm")
+
+#ZOOPLANKTON FECUNDITY
+Cala_fecu <- ggplot(ESplankdf, aes(x = Date, y = Cala.eggsFem))+ 
+  geom_bar(stat = "identity", color = "black", fill="green3", alpha = 1, width = 5)+
+ ylab(~paste("Calanoid ", "(eggs", "·mature female"^-1, ")"))+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b"), limits= as.Date(c("2018-01-01","2019-03-01"))) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+Cala_fecu 
+
+Cyc_fecu <- ggplot(ESplankdf, aes(x = Date, y = Cycl.eggsFem))+ 
+  geom_bar(stat = "identity", color = "black", fill="green4", alpha = 1, width = 5)+
+  ylab(~paste("Cyclopoid ", "(eggs", "·mature female"^-1, ")"))+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b"), limits= as.Date(c("2018-01-01","2019-03-01"))) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+Cyc_fecu
+
+Diap_fecu <- ggplot(ESplankdf, aes(x = Date, y = Diaph.eggsFem))+ 
+  geom_bar(stat = "identity", color = "black", fill="turquoise1", alpha = 1, width = 5)+
+  ylab(~paste("Diaphanosoma ", "(eggs", "·mature female"^-1, ")"))+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b"), limits= as.Date(c("2018-01-01","2019-03-01"))) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+Diap_fecu
+
+Dap_fecu <- ggplot(ESplankdf, aes(x = Date, y = Dap.eggsFem))+ 
+  geom_bar(stat = "identity", color = "black", fill="blue", alpha = 1, width = 5)+
+  ylab(~paste("Daphnia ", "(eggs", "·mature female"^-1, ")"))+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b"), limits= as.Date(c("2018-01-01","2019-03-01"))) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+Dap_fecu
+
+Cer_fecu <- ggplot(ESplankdf, aes(x = Date, y = Cerio.eggsFem))+ 
+  geom_bar(stat = "identity", color = "black", fill="red", alpha = 1, width = 5)+
+  ylab(~paste("Ceriodaphnia ", "(eggs", "·mature female"^-1, ")"))+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b"), limits= as.Date(c("2018-01-01","2019-03-01"))) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+Cer_fecu
+
+Bos_fecu <- ggplot(ESplankdf, aes(x = Date, y = Bosm.eggsFem))+ 
+  geom_bar(stat = "identity", color = "black", fill="grey40", alpha = 1, width = 5)+
+  ylab(~paste("Bosmina ", "(eggs", "·mature female"^-1, ")"))+
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b"), limits= as.Date(c("2018-01-01","2019-03-01"))) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank())+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+Bos_fecu
+
+#Final fecundity plot
+Fecundity <- plot_grid(Cala_fecu,Dap_fecu,
+                       Cyc_fecu, Cer_fecu,
+                       Diap_fecu, Bos_fecu,
+                       align="hv", axis="tblr", ncol = 2, nrow=3,
+                        labels =c("a", "d", "b","e", "c","f"))
+
+title <- ggdraw() + 
+  draw_label("Crustaceans' fecundity (2018-2019)",
+             fontface = 'bold',
+             x = 0,
+             hjust = 0
+  ) +
+  theme(plot.margin = margin(0, 0, 0, 7))
+
+FecundityPlot <- plot_grid(title, Fecundity, ncol=1, rel_heights = c(0.1, 1))
+
+
+#save figure as image 
+ggsave("Figures/FecundityPlot.jpeg", width = 20, height = 20, units = "cm")
