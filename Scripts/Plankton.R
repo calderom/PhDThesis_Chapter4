@@ -362,3 +362,50 @@ ggsave("Figures/PlanktonBiomasses.jpeg", width = 18, height = 25, units = "cm")
 
 
 #FINAL FIGURE TOTALS
+#input file
+plankdf <- read.csv("Data/TotalPlankton.csv", stringsAsFactors = T)
+plankdf$Date <- as.Date(plankdf$Date,"%d/%m/%Y")
+str(plankdf)
+names(plankdf)
+summary(plankdf)
+
+#plankton biomass in C
+planktonC_B <- plankdf %>% 
+  pivot_longer(cols = -c("Date","CampaignID"), names_to = "Variable", values_to = "Value")
+planktonC_B$Variable <- as.factor(planktonC_B$Variable)
+
+#rename and reorder plankton biomass names
+planktonC_B$Variable <- recode_factor(planktonC_B$Variable,
+                                      Phyto.ugCL = "Phytoplankton", 
+                                      Rot.ugCL = "Rotifers",
+                                      Crust.ugCL = "Crustaceans")
+planktonC_B$Variable  <- ordered(planktonC_B$Variable, 
+                             levels=c("Crustaceans", 
+                                      "Rotifers", 
+                                      "Phytoplankton"))
+
+plank_biomC <- ggplot(planktonC_B, aes(x = Date, y = Value, fill = Variable))+ 
+  geom_bar(position="fill", stat = "identity", color = "black", alpha = 1, width = 5)+
+  scale_fill_manual(name = "Plankton",
+                    values = c("Crustaceans"="gray10",
+                               "Rotifers"="deeppink",
+                               "Phytoplankton"="gray70"))+
+  ylab("Pelagic plankton relative C biomass")+
+  scale_y_continuous(labels = scales::percent) +
+  scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
+  theme(panel.background = element_rect(fill = 'white', colour = 'black'),
+        text = element_text(size = 10), axis.title.x = element_blank(),
+        legend.position = "right", legend.key.height = unit(0.2, 'cm'))+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
+plank_biomC
+
+#save figure as image 
+ggsave("Figures/plank_biomC.jpeg", width = 15, height = 8, units = "cm")
+
+
+
+
+
+
+
+
