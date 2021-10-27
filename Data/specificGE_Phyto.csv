@@ -1,0 +1,113 @@
+Treatment,PhytoSpecies,Mean_cellmL,Total_cellmL,Total.cellmL_SD,Mean_ngCmL,Total_ngmL,Total.ngCmL_SD
+Cnt_t0,Ciliates,1.187,30.166,1.29,0.808,7.507,0.570
+Cnt_t0,Dolichospermum flos-aquae,1.910,30.166,1.29,0.034,7.507,0.570
+Cnt_t0,Oscillatoria,0.630,30.166,1.29,2.374,7.507,0.570
+Cnt_t0,Rhodomonas minuta,11.449,30.166,1.29,1.347,7.507,0.570
+Cnt_t0,Cryptomonas,0.855,30.166,1.29,0.753,7.507,0.570
+Cnt_t0,Dinobryon sociale,0.382,30.166,1.29,0.110,7.507,0.570
+Cnt_t0,Chrysochromulina parva,0.035,30.166,1.29,0.003,7.507,0.570
+Cnt_t0,Pyramimonadales,0.017,30.166,1.29,0.003,7.507,0.570
+Cnt_t0,Monoraphidium minutum,1.675,30.166,1.29,0.074,7.507,0.570
+Cnt_t0,Monoraphidium contortum,0.471,30.166,1.29,0.006,7.507,0.570
+Cnt_t0,Chlamydomonas,0.175,30.166,1.29,0.006,7.507,0.570
+Cnt_t0,Cosmarium,0.279,30.166,1.29,0.013,7.507,0.570
+Cnt_t0,Desmodesmus,0.332,30.166,1.29,0.015,7.507,0.570
+Cnt_t0,Kirchneriella obesa,0.471,30.166,1.29,0.126,7.507,0.570
+Cnt_t0,Raphidocelis,0.000,30.166,1.29,0.000,7.507,0.570
+Cnt_t0,Closterium acutum,0.611,30.166,1.29,0.107,7.507,0.570
+Cnt_t0,Oocystis parva,0.593,30.166,1.29,0.069,7.507,0.570
+Cnt_t0,Oocystis,0.698,30.166,1.29,0.019,7.507,0.570
+Cnt_t0,Coenococcus planctonicus,0.000,30.166,1.29,0.000,7.507,0.570
+Cnt_t0,Radiococcus polycoccus,0.175,30.166,1.29,0.005,7.507,0.570
+Cnt_t0,Pennate_cylinder,0.419,30.166,1.29,0.108,7.507,0.570
+Cnt_t0,Pennate_cones,0.384,30.166,1.29,0.070,7.507,0.570
+Cnt_t0,Tabellaria fenestrate,1.510,30.166,1.29,0.650,7.507,0.570
+Cnt_t0,Tabellaria flocculosa,0.035,30.166,1.29,0.015,7.507,0.570
+Cnt_t0,Asterionella formosa,2.240,30.166,1.29,0.247,7.507,0.570
+Cnt_t0,Aulacoseira alpigena,0.419,30.166,1.29,0.096,7.507,0.570
+Cnt_t0,Aulacoseira subarctica,2.271,30.166,1.29,0.322,7.507,0.570
+Cnt_t0,Cyclotella,0.942,30.166,1.29,0.126,7.507,0.570
+Cnt_t24,Ciliates,0.600,25.846,5.01,0.409,4.549,0.450
+Cnt_t24,Dolichospermum flos-aquae,2.360,25.846,5.01,0.042,4.549,0.450
+Cnt_t24,Oscillatoria,0.520,25.846,5.01,0.668,4.549,0.450
+Cnt_t24,Rhodomonas minuta,7.498,25.846,5.01,0.882,4.549,0.450
+Cnt_t24,Cryptomonas,0.517,25.846,5.01,0.455,4.549,0.450
+Cnt_t24,Dinobryon sociale,0.251,25.846,5.01,0.073,4.549,0.450
+Cnt_t24,Chrysochromulina parva,0.000,25.846,5.01,0.000,4.549,0.450
+Cnt_t24,Pyramimonadales,0.070,25.846,5.01,0.011,4.549,0.450
+Cnt_t24,Monoraphidium minutum,2.304,25.846,5.01,0.102,4.549,0.450
+Cnt_t24,Monoraphidium contortum,0.726,25.846,5.01,0.009,4.549,0.450
+Cnt_t24,Chlamydomonas,0.321,25.846,5.01,0.010,4.549,0.450
+Cnt_t24,Cosmarium,0.195,25.846,5.01,0.009,4.549,0.450
+Cnt_t24,Desmodesmus,0.209,25.846,5.01,0.010,4.549,0.450
+Cnt_t24,Kirchneriella obesa,0.469,25.846,5.01,0.126,4.549,0.450
+Cnt_t24,Raphidocelis,0.042,25.846,5.01,0.003,4.549,0.450
+Cnt_t24,Closterium acutum,0.949,25.846,5.01,0.167,4.549,0.450
+Cnt_t24,Oocystis parva,0.503,25.846,5.01,0.059,4.549,0.450
+Cnt_t24,Oocystis,0.572,25.846,5.01,0.016,4.549,0.450
+Cnt_t24,Coenococcus planctonicus,0.000,25.846,5.01,0.000,4.549,0.450
+Cnt_t24,Radiococcus polycoccus,0.112,25.846,5.01,0.003,4.549,0.450
+Cnt_t24,Pennate_cylinder,0.628,25.846,5.01,0.162,4.549,0.450
+Cnt_t24,Pennate_cones,0.279,25.846,5.01,0.051,4.549,0.450
+Cnt_t24,Tabellaria fenestrate,1.088,25.846,5.01,0.468,4.549,0.450
+Cnt_t24,Tabellaria flocculosa,0.084,25.846,5.01,0.037,4.549,0.450
+Cnt_t24,Asterionella formosa,2.572,25.846,5.01,0.283,4.549,0.450
+Cnt_t24,Aulacoseira alpigena,0.977,25.846,5.01,0.223,4.549,0.450
+Cnt_t24,Aulacoseira subarctica,0.477,25.846,5.01,0.068,4.549,0.450
+Cnt_t24,Cyclotella,1.522,25.846,5.01,0.203,4.549,0.450
+Cala_t24,Ciliates,0.251,16.557,5.50,0.171,3.071,1.064
+Cala_t24,Dolichospermum flos-aquae,0.480,16.557,5.50,0.009,3.071,1.064
+Cala_t24,Oscillatoria,0.296,16.557,5.50,0.702,3.071,1.064
+Cala_t24,Rhodomonas minuta,4.189,16.557,5.50,0.493,3.071,1.064
+Cala_t24,Cryptomonas,0.140,16.557,5.50,0.123,3.071,1.064
+Cala_t24,Dinobryon sociale,0.154,16.557,5.50,0.044,3.071,1.064
+Cala_t24,Chrysochromulina parva,0.293,16.557,5.50,0.025,3.071,1.064
+Cala_t24,Pyramimonadales,0.084,16.557,5.50,0.014,3.071,1.064
+Cala_t24,Monoraphidium minutum,1.857,16.557,5.50,0.082,3.071,1.064
+Cala_t24,Monoraphidium contortum,0.447,16.557,5.50,0.006,3.071,1.064
+Cala_t24,Chlamydomonas,0.042,16.557,5.50,0.001,3.071,1.064
+Cala_t24,Cosmarium,0.084,16.557,5.50,0.004,3.071,1.064
+Cala_t24,Desmodesmus,0.000,16.557,5.50,0.000,3.071,1.064
+Cala_t24,Kirchneriella obesa,0.531,16.557,5.50,0.142,3.071,1.064
+Cala_t24,Raphidocelis,0.014,16.557,5.50,0.001,3.071,1.064
+Cala_t24,Closterium acutum,0.572,16.557,5.50,0.100,3.071,1.064
+Cala_t24,Oocystis parva,0.503,16.557,5.50,0.059,3.071,1.064
+Cala_t24,Oocystis,0.293,16.557,5.50,0.008,3.071,1.064
+Cala_t24,Coenococcus planctonicus,0.042,16.557,5.50,0.004,3.071,1.064
+Cala_t24,Radiococcus polycoccus,0.112,16.557,5.50,0.003,3.071,1.064
+Cala_t24,Pennate_cylinder,0.475,16.557,5.50,0.123,3.071,1.064
+Cala_t24,Pennate_cones,0.154,16.557,5.50,0.028,3.071,1.064
+Cala_t24,Tabellaria fenestrate,0.400,16.557,5.50,0.172,3.071,1.064
+Cala_t24,Tabellaria flocculosa,0.056,16.557,5.50,0.025,3.071,1.064
+Cala_t24,Asterionella formosa,0.874,16.557,5.50,0.096,3.071,1.064
+Cala_t24,Aulacoseira alpigena,0.698,16.557,5.50,0.159,3.071,1.064
+Cala_t24,Aulacoseira subarctica,0.991,16.557,5.50,0.141,3.071,1.064
+Cala_t24,Cyclotella,2.527,16.557,5.50,0.337,3.071,1.064
+Cycl_t24,Ciliates,0.391,18.929,2.29,0.266,2.946,0.376
+Cycl_t24,Dolichospermum flos-aquae,1.272,18.929,2.29,0.023,2.946,0.376
+Cycl_t24,Oscillatoria,0.288,18.929,2.29,0.317,2.946,0.376
+Cycl_t24,Rhodomonas minuta,5.934,18.929,2.29,0.698,2.946,0.376
+Cycl_t24,Cryptomonas,0.321,18.929,2.29,0.283,2.946,0.376
+Cycl_t24,Dinobryon sociale,0.349,18.929,2.29,0.101,2.946,0.376
+Cycl_t24,Chrysochromulina parva,0.014,18.929,2.29,0.001,2.946,0.376
+Cycl_t24,Pyramimonadales,0.098,18.929,2.29,0.016,2.946,0.376
+Cycl_t24,Monoraphidium minutum,1.899,18.929,2.29,0.084,2.946,0.376
+Cycl_t24,Monoraphidium contortum,0.740,18.929,2.29,0.009,2.946,0.376
+Cycl_t24,Chlamydomonas,0.070,18.929,2.29,0.002,2.946,0.376
+Cycl_t24,Cosmarium,0.195,18.929,2.29,0.009,2.946,0.376
+Cycl_t24,Desmodesmus,0.126,18.929,2.29,0.006,2.946,0.376
+Cycl_t24,Kirchneriella obesa,0.435,18.929,2.29,0.117,2.946,0.376
+Cycl_t24,Raphidocelis,0.000,18.929,2.29,0.000,2.946,0.376
+Cycl_t24,Closterium acutum,0.866,18.929,2.29,0.152,2.946,0.376
+Cycl_t24,Oocystis parva,0.558,18.929,2.29,0.065,2.946,0.376
+Cycl_t24,Oocystis,0.628,18.929,2.29,0.017,2.946,0.376
+Cycl_t24,Coenococcus planctonicus,0.014,18.929,2.29,0.001,2.946,0.376
+Cycl_t24,Radiococcus polycoccus,0.293,18.929,2.29,0.008,2.946,0.376
+Cycl_t24,Pennate_cylinder,0.628,18.929,2.29,0.162,2.946,0.376
+Cycl_t24,Pennate_cones,0.209,18.929,2.29,0.038,2.946,0.376
+Cycl_t24,Tabellaria fenestrate,0.140,18.929,2.29,0.060,2.946,0.376
+Cycl_t24,Tabellaria flocculosa,0.014,18.929,2.29,0.006,2.946,0.376
+Cycl_t24,Asterionella formosa,1.016,18.929,2.29,0.112,2.946,0.376
+Cycl_t24,Aulacoseira alpigena,0.670,18.929,2.29,0.153,2.946,0.376
+Cycl_t24,Aulacoseira subarctica,0.489,18.929,2.29,0.069,2.946,0.376
+Cycl_t24,Cyclotella,1.271,18.929,2.29,0.169,2.946,0.376

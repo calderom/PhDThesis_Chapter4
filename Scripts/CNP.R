@@ -7,7 +7,7 @@ library(cowplot) #nice plots
 library(gtable) #align plots
 library(gridExtra) #nice plots
 library(tidyverse) #manipulate datasets
-library(dplyr) #manipulate datasets
+
 
 library (TimeSeries) #for timeseries
 library(lubridate) #for timeseries
