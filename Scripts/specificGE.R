@@ -413,7 +413,7 @@ all <- plot_grid(CR_N, IR_N_cells, IR_N_ngC,
                  CR_M, IR_M_cells, IR_M_ngC,
                       align="hv", axis="tblr", ncol = 3, nrow=2,
                       labels =c("a", "c", "e",
-                                "b",  "d", "f"), legend)
+                                "b",  "d", "f")) 
 
 all
 
@@ -427,3 +427,43 @@ CR_IR_legend
 
 #save figure as image 
 ggsave("Figures/CR_IR_legend.jpeg", width = 26, height = 15, units = "cm")
+
+
+#Effect sizes as lnR
+specificGE_lnR <- ggplot(speGE_metricsdf, aes(x = Prey, y = lnR, fill=Prey, pattern=Treatment)) +
+  geom_bar_pattern(stat = "identity", position = position_dodge(preserve = "single"),
+                   color = "black", 
+                   pattern_fill = "black",
+                   pattern_angle = 45,
+                   pattern_density = 0.1,
+                   pattern_spacing = 0.025,
+                   pattern_key_scale_factor = 0.6)+
+  #colours slightly changed from whole phyto community
+  scale_fill_manual(name = "Prey",
+                    values = c("Ciliates" = "pink", 
+                               "Oscillatoria" ="cyan",
+                               "Rhodomonas minuta"="chocolate1", 
+                               "Cryptomonas"="chocolate4",
+                               "Monoraphidium minutum"="greenyellow", 
+                               "Monoraphidium contortum"="green1", 
+                               "Kirchneriella obesa"="olivedrab3", 
+                               "Closterium acutum"="green3", 
+                               "Oocystis"="palegreen3", 
+                               "Tabellaria fenestrate"="grey60",
+                               "Asterionella formosa"="grey50", 
+                               "Aulacoseira alpigena"="grey30", 
+                               "Cyclotella"="grey20"))+
+  scale_pattern_manual(values = c(Cala = "none", Cycl = "stripe")) +
+  geom_errorbar(aes(ymin=lnR-var_lnR, ymax=lnR+var_lnR), position = position_dodge(0.8), 
+                alpha=1, width = 0)+
+  scale_y_reverse()+
+  labs(x = "Prey", y = "Effect size (lnR±var)", pattern = "Treatment") +
+  guides(pattern = guide_legend(override.aes = list(fill = "white")),
+  fill = guide_legend(override.aes = list(pattern = "none")))+
+  theme(text = element_text(size = 10),
+        panel.background = element_rect(fill = 'white', colour = 'black'),
+        axis.title.x=element_blank(), axis.text.x=element_blank(),
+        legend.position = "right", legend.key.height = unit(0.2, 'cm'))
+specificGE_lnR
+#save figure as image 
+ggsave("Figures/specificGE_lnR.jpeg", width = 15, height = 10, units = "cm")
