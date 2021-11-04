@@ -1,65 +1,65 @@
 Season,Treatment,Prey,lnR,var_lnR
-Autumn,TotalGrazers,Ciliates,-6.469692673,1.044745057
-Autumn,TotalGrazers,Rhodomonas minuta,-6.619224407,1.0625
+Autumn,TotalGrazers,Ciliates,-2.740840024,1.044745057
+Autumn,TotalGrazers,Rhodomonas minuta,-2.890371758,1.0625
 Autumn,TotalGrazers,Cryptomonas,-7.647020485,0
 Autumn,TotalGrazers,Gymnodinium,0,0
 Autumn,TotalGrazers,Chrysochromulina parva,0,0
-Autumn,TotalGrazers,Monoraphidium minutum,-0.897958716,0.052931917
+Autumn,TotalGrazers,Monoraphidium minutum,-0.857450232,0.052931917
 Autumn,TotalGrazers,Chlamydomonas,-8.976156433,0.509515571
-Autumn,TotalGrazers,Kirchneriella obesa,-4.980071504,2
-Autumn,TotalGrazers,Closterium acutum,-0.553073153,0.012303106
-Autumn,TotalGrazers,Radiococcus polycoccus,-6.704109688,1.194029851
-Autumn,TotalGrazers,Pennate_cylinder,-5.805154667,1.551984877
-Autumn,TotalGrazers,Pennate_cones,-0.009466492,0.177438017
+Autumn,TotalGrazers,Kirchneriella obesa,-0.980829253,2
+Autumn,TotalGrazers,Closterium acutum,-0.548316233,0.012303106
+Autumn,TotalGrazers,Radiococcus polycoccus,-1.902107526,1.194029851
+Autumn,TotalGrazers,Pennate_cylinder,-1.343734747,1.551984877
+Autumn,TotalGrazers,Pennate_cones,0.09531018,0.177438017
 Autumn,TotalGrazers,Tabellaria fenestrate,-8.22238463,1
-Autumn,TotalGrazers,Asterionella formosa,0.552742692,0.069302721
-Autumn,TotalGrazers,Aulacoseira alpigena,-0.516075076,0.104674556
-Autumn,TotalGrazers,Cyclotella,0.103145307,0.073538516
-Autumn,MicroGrazers,Ciliates,-3.689557217,0.481775431
-Autumn,MicroGrazers,Rhodomonas minuta,-4.300869046,0.499061504
-Autumn,MicroGrazers,Cryptomonas,-0.331083924,0.203125
+Autumn,TotalGrazers,Asterionella formosa,0.559615788,0.069302721
+Autumn,TotalGrazers,Aulacoseira alpigena,-0.430782916,0.104674556
+Autumn,TotalGrazers,Cyclotella,0.139761942,0.073538516
+Autumn,MicroGrazers,Ciliates,-1.354008659,0.481775431
+Autumn,MicroGrazers,Rhodomonas minuta,-2.196150859,0.499061504
+Autumn,MicroGrazers,Cryptomonas,-0.117783036,0.203125
 Autumn,MicroGrazers,Gymnodinium,0,0
 Autumn,MicroGrazers,Chrysochromulina parva,0,0
-Autumn,MicroGrazers,Monoraphidium minutum,-0.417838189,0.048328742
-Autumn,MicroGrazers,Chlamydomonas,-2.732222972,0.927798119
-Autumn,MicroGrazers,Kirchneriella obesa,-1.371799575,1.404958678
-Autumn,MicroGrazers,Closterium acutum,-0.170938836,0.016430999
-Autumn,MicroGrazers,Radiococcus polycoccus,-3.946945718,0.675511332
-Autumn,MicroGrazers,Pennate_cylinder,-3.570502618,1.223859877
-Autumn,MicroGrazers,Pennate_cones,-0.20539538,0.2
-Autumn,MicroGrazers,Tabellaria fenestrate,-3.028158734,1.4375
-Autumn,MicroGrazers,Asterionella formosa,0.41907244,0.10682133
-Autumn,MicroGrazers,Aulacoseira alpigena,-0.994436585,0.158148148
-Autumn,MicroGrazers,Cyclotella,-0.420181052,0.150079518
-Winter,TotalGrazers,Ciliates,-0.557992145,0.442708333
-Winter,TotalGrazers,Rhodomonas minuta,-0.53175462,0.40973657
+Autumn,MicroGrazers,Monoraphidium minutum,-0.382992252,0.048328742
+Autumn,MicroGrazers,Chlamydomonas,0.111225635,0.927798119
+Autumn,MicroGrazers,Kirchneriella obesa,1.41706602,1.404958678
+Autumn,MicroGrazers,Closterium acutum,-0.161755279,0.016430999
+Autumn,MicroGrazers,Radiococcus polycoccus,-1.314320861,0.675511332
+Autumn,MicroGrazers,Pennate_cylinder,-1.056052674,1.223859877
+Autumn,MicroGrazers,Pennate_cones,0,0.2
+Autumn,MicroGrazers,Tabellaria fenestrate,-0.693147181,1.4375
+Autumn,MicroGrazers,Asterionella formosa,0.459532329,0.10682133
+Autumn,MicroGrazers,Aulacoseira alpigena,-0.798507696,0.158148148
+Autumn,MicroGrazers,Cyclotella,-0.321583624,0.150079518
+Winter,TotalGrazers,Ciliates,-0.405465108,0.442708333
+Winter,TotalGrazers,Rhodomonas minuta,-0.318453731,0.40973657
 Winter,TotalGrazers,Cryptomonas,0,0
-Winter,TotalGrazers,Gymnodinium,-3.250320886,0.341597796
-Winter,TotalGrazers,Chrysochromulina parva,-1.022793669,0.45380004
-Winter,TotalGrazers,Monoraphidium minutum,-0.586651292,0.063668639
-Winter,TotalGrazers,Chlamydomonas,-0.336509826,0.098221199
+Winter,TotalGrazers,Gymnodinium,-1.299282984,0.341597796
+Winter,TotalGrazers,Chrysochromulina parva,-0.88238918,0.45380004
+Winter,TotalGrazers,Monoraphidium minutum,-0.550046337,0.063668639
+Winter,TotalGrazers,Chlamydomonas,-0.32090772,0.098221199
 Winter,TotalGrazers,Kirchneriella obesa,0,0
-Winter,TotalGrazers,Closterium acutum,-0.1623294,0.046271854
+Winter,TotalGrazers,Closterium acutum,-0.122602322,0.046271854
 Winter,TotalGrazers,Radiococcus polycoccus,0,0
-Winter,TotalGrazers,Pennate_cylinder,-0.14978213,0.141377937
-Winter,TotalGrazers,Pennate_cones,-0.771669204,0.070226703
-Winter,TotalGrazers,Tabellaria fenestrate,2.113453101,1.231404959
-Winter,TotalGrazers,Asterionella formosa,0.79991628,0.047751913
-Winter,TotalGrazers,Aulacoseira alpigena,-0.138770474,0.099838524
-Winter,TotalGrazers,Cyclotella,-3.0199352,0.7175
-Winter,MicroGrazers,Ciliates,0.058891518,0.444444444
+Winter,TotalGrazers,Pennate_cylinder,-0.138150338,0.141377937
+Winter,TotalGrazers,Pennate_cones,-0.730887509,0.070226703
+Winter,TotalGrazers,Tabellaria fenestrate,2.397895273,1.231404959
+Winter,TotalGrazers,Asterionella formosa,0.826678573,0.047751913
+Winter,TotalGrazers,Aulacoseira alpigena,-0.125163143,0.099838524
+Winter,TotalGrazers,Cyclotella,-0.916290732,0.7175
+Winter,MicroGrazers,Ciliates,0.117783036,0.444444444
 Winter,MicroGrazers,Rhodomonas minuta,-1.299282984,0.20661157
 Winter,MicroGrazers,Cryptomonas,0,0
-Winter,MicroGrazers,Gymnodinium,-0.952709394,0.119375574
-Winter,MicroGrazers,Chrysochromulina parva,-0.424243814,0.491640176
-Winter,MicroGrazers,Monoraphidium minutum,-1.186529175,0.586168639
-Winter,MicroGrazers,Chlamydomonas,0.027352212,0.084868536
+Winter,MicroGrazers,Gymnodinium,-0.893817876,0.119375574
+Winter,MicroGrazers,Chrysochromulina parva,-0.322773392,0.491640176
+Winter,MicroGrazers,Monoraphidium minutum,-0.773189888,0.586168639
+Winter,MicroGrazers,Chlamydomonas,0.028987537,0.084868536
 Winter,MicroGrazers,Kirchneriella obesa,0,0
-Winter,MicroGrazers,Closterium acutum,-0.164992226,0.05035503
+Winter,MicroGrazers,Closterium acutum,-0.144581229,0.05035503
 Winter,MicroGrazers,Radiococcus polycoccus,0,0
-Winter,MicroGrazers,Pennate_cylinder,0.217597821,0.152700897
-Winter,MicroGrazers,Pennate_cones,-0.419550547,0.056584362
-Winter,MicroGrazers,Tabellaria fenestrate,1.903331245,1.444444444
-Winter,MicroGrazers,Asterionella formosa,0.818804395,0.094788329
-Winter,MicroGrazers,Aulacoseira alpigena,-0.694880285,0.197616301
-Winter,MicroGrazers,Cyclotella,0.293893332,0.292345679
+Winter,MicroGrazers,Pennate_cylinder,0.229574442,0.152700897
+Winter,MicroGrazers,Pennate_cones,-0.405465108,0.056584362
+Winter,MicroGrazers,Tabellaria fenestrate,2.197224577,1.444444444
+Winter,MicroGrazers,Asterionella formosa,0.857450232,0.094788329
+Winter,MicroGrazers,Aulacoseira alpigena,-0.635988767,0.197616301
+Winter,MicroGrazers,Cyclotella,0.300104592,0.292345679
