@@ -777,7 +777,6 @@ ggsave("Figures/Fig_BI_C.jpeg", width = 8, height = 5, units = "cm")
 model <- lm(CALAw~LAKEw, data=BIPLOTdf)
 summary(model)
 
-
 #residuals
 layout(matrix(c(1,1,2,3),2,2,byrow=T))
 #LAKEw x Residuals Plot

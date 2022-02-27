@@ -509,6 +509,55 @@ zoo_sestonPlot <- plot_grid(title, zoo_seston, ncol=1, rel_heights = c(0.1, 1))
 #save figure as image 
 ggsave("Figures/zoo_sestonPlot.jpeg", width = 10, height = 20, units = "cm")
 
+
+#linear regression
+
+model <- lm(ln_ZooNZooPtaxaDW~sestonN.P, data=ESplankdf)
+summary(model)
+
+#residuals
+layout(matrix(c(1,1,2,3),2,2,byrow=T))
+#LAKEw x Residuals Plot
+plot(model$resid~ESplankdf$sestonN.P[order(ESplankdf$sestonN.P)],
+     main="sestonN.P x Residuals\nfor Simple Regression",
+     xlab="sestonN.P", ylab="Residuals")
+abline(h=0,lty=2)
+#Histogram of Residuals
+hist(model$resid, main="Histogram of Residuals",
+     ylab="Residuals")
+#Q-Q Plot
+qqnorm(model$resid)
+qqline(model$resid)
+
+#test residuals are normally distributed
+install.packages("fBasics")
+library(fBasics)
+jarqueberaTest(model$resid) #Test residuals for normality
+#Null Hypothesis: Skewness and Kurtosis are equal to zero = residuals are normally distributed
+#Residuals X-squared: 0.9226 p Value: 0.6305  
+#p-value > 0.05 --> accept the null hypothesis
+
+#test residuals are independent
+library(lmtest) #dwtest
+dwtest(model) #Test for independence of residuals
+#Null Hypothesis: there is no correlation among the residuals
+#Results: DW = 0.96039, p-value = 0.001374
+#p-value < 0.05 --> reject the null hypothesis
+
+#GLMM (to be able to add an autocorrelation structure)
+install.packages("nlme")
+library(nlme)
+library(mgcv)
+
+model1 <- lme(ln_ZooNZooPtaxaDW~1,random=~1|f,data=ESplankdf,correlation=corAR1())
+
+
+
+
+
+
+
+
 #ZOOPLANKTON FECUNDITY
 Cala_fecu <- ggplot(ESplankdf, aes(x = Date, y = Cala.eggsFem))+ 
   geom_bar(stat = "identity", color = "black", fill="green3", alpha = 1, width = 5)+
