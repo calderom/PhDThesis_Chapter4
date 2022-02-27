@@ -1,0 +1,1561 @@
+phyto_name,lake,stationid,device,mesh_um,integrated_y_n,min_depth_m,max_depth_m,date_dd_mm_yyyy,cell_colony_density_ind_l,biovol_um3_ml,biomass_ug_l,genus,MFG,CSR
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,6283.17,5563.862206,5.563862206,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,6981.3,5300.987797,5.300987797,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,1396.26,250.1077434,0.250107743,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,4188.78,2923.616642,2.923616642,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,1396.26,345.3576159,0.345357616,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,2094.39,198.8657199,0.19886572,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,4886.91,1005.985455,1.005985455,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,698.13,150.4723969,0.150472397,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,698.13,131.8348692,0.131834869,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,1396.26,1401.63162,1.40163162,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,4886.91,1816.091204,1.816091204,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,698.13,358.6605741,0.358660574,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,698.13,89.67078513,0.089670785,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,698.13,4301.713301,4.301713301,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,23/01/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,360.6998105,0.36069981,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,2792.52,2472.827647,2.472827647,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,125.0538717,0.125053872,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,487.2694404,0.48726944,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,66.28857331,0.066288573,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,263.055384,0.263055384,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,2094.39,2102.44743,2.10244743,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,51.02533591,0.051025336,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,1396.26,256.5731924,0.256573192,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,433.0939563,0.433093956,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,4886.91,1816.091204,1.816091204,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,552.4163064,0.552416306,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,358.6605741,0.358660574,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,268.6661361,0.268666136,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,906.559184,0.906559184,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,2094.39,269.0123554,0.269012355,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,698.13,4301.713301,4.301713301,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,13/02/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,4188.78,3709.241471,3.709241471,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,3490.65,2650.493898,2.650493898,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,698.13,125.0538717,0.125053872,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,2792.52,1949.077761,1.949077761,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,13264.47,3280.897351,3.280897351,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,1396.26,287.4244156,0.287424416,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,698.13,128.2865962,0.128286596,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,1396.26,518.8832012,0.518883201,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,698.13,552.4163064,0.552416306,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,3490.65,1242.893304,1.242893304,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,698.13,358.6605741,0.358660574,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,698.13,134.2678523,0.134267852,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,698.13,672.8036029,0.672803603,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,1396.26,1813.118368,1.813118368,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,2094.39,217.5636495,0.217563649,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,2094.39,269.0123554,0.269012355,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,80,696.91515,0.69691515,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,2094.39,12905.1399,12.9051399,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,26/02/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,11170.08,5771.196968,5.771196968,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,3490.65,3091.034559,3.091034559,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,18151.38,13782.56827,13.78256827,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,698.13,49512.86894,49.51286894,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,3490.65,2436.347202,2.436347202,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,2792.52,574.8488313,0.574848831,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,698.13,828.2094554,0.828209455,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,40,324,0.324,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,698.13,259.4416006,0.259441601,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,2094.39,745.7359821,0.745735982,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,2792.52,1434.642297,1.434642297,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,698.13,134.2678523,0.134267852,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,698.13,725.9420286,0.725942029,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,320,1971.764938,1.971764938,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,12/03/2018,120,15596.37085,15.59637085,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,9773.82,8654.896765,8.654896765,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,2792.52,5360.768323,5.360768323,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,42585.93,32336.02556,32.33602556,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,2094.39,375.161615,0.375161615,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,2792.52,1949.077761,1.949077761,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,16755.12,4144.29139,4.14429139,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,698.13,66.28857331,0.066288573,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,4886.91,1005.985455,1.005985455,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,3490.65,9414.018136,9.414018136,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,60737.31,9138.30729,9.13830729,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,2792.52,601.8895878,0.601889588,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,698.13,128.2865962,0.128286596,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,698.13,433.0939563,0.433093956,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,6981.3,2594.416006,2.594416006,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,698.13,552.4163064,0.552416306,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,2094.39,745.7359821,0.745735982,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,2792.52,537.071409,0.537071409,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,1396.26,537.3322723,0.537332272,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,2094.39,2719.677552,2.719677552,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,698.13,1496.492851,1.496492851,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,25132.68,3228.148265,3.228148265,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,698.13,4301.713301,4.301713301,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,698.13,3316.861227,3.316861227,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,03/04/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,16056.99,8296.095641,8.296095641,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,15358.86,13600.55206,13.60055206,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,27925.2,21203.95119,21.20395119,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,698.13,2386.611074,2.386611074,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,1396.26,250.1077434,0.250107743,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,3490.65,2436.347202,2.436347202,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,11170.08,2762.860927,2.762860927,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,9773.82,2011.970909,2.011970909,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,1396.26,3765.607254,3.765607254,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,3490.65,752.3619847,0.752361985,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,2792.52,2803.263241,2.803263241,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,698.13,51.02533591,0.051025336,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,2094.39,384.8597886,0.384859789,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,11170.08,4151.06561,4.15106561,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,698.13,4504.014601,4.504014601,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,2792.52,994.3146428,0.994314643,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,6283.17,3227.945167,3.227945167,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,2792.52,537.071409,0.537071409,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,5585.04,2149.329089,2.149329089,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,23038.29,2959.135909,2.959135909,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,2792.52,5091.968434,5.091968434,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,6283.17,38715.41971,38.71541971,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,698.13,3316.861227,3.316861227,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,17/04/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,25830.81,13345.89299,13.34589299,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,9075.69,8036.689853,8.036689853,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,27227.07,20673.85241,20.67385241,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,698.13,2386.611074,2.386611074,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,4188.78,2923.616642,2.923616642,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,13962.6,3453.576159,3.453576159,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,16755.12,3449.092988,3.449092988,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,2094.39,2484.628366,2.484628366,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,698.13,1882.803627,1.882803627,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,2792.52,601.8895878,0.601889588,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,1396.26,102.0506718,0.102050672,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,1396.26,256.5731924,0.256573192,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,7679.43,2853.857607,2.853857607,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,2094.39,13512.0438,13.5120438,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,5585.04,1988.629286,1.988629286,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,4188.78,2151.963445,2.151963445,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,2094.39,402.8035568,0.402803557,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,12566.34,4835.99045,4.83599045,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,1396.26,1345.607206,1.345607206,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,698.13,72.52121649,0.072521216,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,16056.99,2062.428058,2.062428058,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,2792.52,5091.968434,5.091968434,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,698.13,4301.713301,4.301713301,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,01/05/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,27227.07,14067.29261,14.06729261,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,22340.16,19782.62118,19.78262118,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,2792.52,5360.768323,5.360768323,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,7679.43,5831.086576,5.831086576,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,2094.39,375.161615,0.375161615,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,4886.91,3410.886083,3.410886083,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,9075.69,2244.824503,2.244824503,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,2792.52,265.1542932,0.265154293,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,20245.77,4167.654027,4.167654027,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,1396.26,1656.418911,1.656418911,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,13264.47,35773.26892,35.77326892,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,6981.3,1504.723969,1.504723969,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,4886.91,357.1773514,0.357177351,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,2094.39,384.8597886,0.384859789,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,1396.26,717.3211483,0.717321148,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,16056.99,5967.156814,5.967156814,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,698.13,4504.014601,4.504014601,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,4188.78,1491.471964,1.491471964,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,7679.43,3945.266316,3.945266316,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,1396.26,268.5357045,0.268535705,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,6283.17,2417.995225,2.417995225,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,4188.78,4036.821617,4.036821617,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,72605.52,9325.761653,9.325761653,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,19547.64,35643.77904,35.64377904,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,2094.39,12905.1399,12.9051399,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,15/05/2018,0,27627.41144,27.62741144,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,58642.92,30298.78408,30.29878408,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,6283.17,5563.862206,5.563862206,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,2094.39,4020.576242,4.020576242,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,39095.28,29685.53166,29.68553166,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,698.13,2386.611074,2.386611074,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,4886.91,875.3771017,0.875377102,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,6283.17,1554.109271,1.554109271,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,6283.17,596.5971598,0.59659716,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,160,6272.418921,6.272418921,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,13962.6,2874.244156,2.874244156,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,2094.39,1042.169207,1.042169207,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,698.13,2254.633079,2.254633079,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,31415.85,84726.16323,84.72616323,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,1396.26,740.9393316,0.740939332,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,9773.82,2106.613557,2.106613557,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,698.13,131.8348692,0.131834869,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,4188.78,306.1520155,0.306152015,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,6283.17,1154.579366,1.154579366,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,7679.43,2853.857607,2.853857607,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,2094.39,1111.408997,1.111408997,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,2094.39,13512.0438,13.5120438,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,698.13,358.6605741,0.358660574,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,6283.17,1208.41067,1.20841067,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,6981.3,2686.661361,2.686661361,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,1396.26,1657.248919,1.657248919,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,100530.72,12912.59306,12.91259306,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,80,696.91515,0.69691515,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,3490.65,3629.710143,3.629710143,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,4960,9044.219355,9.044219355,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,5720,35245.29827,35.24529827,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,4886.91,23218.02859,23.21802859,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,28/05/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,26528.94,13706.5928,13.7065928,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,6981.3,6182.069118,6.182069118,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,2094.39,4020.576242,4.020576242,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,13264.47,2376.023562,2.376023562,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,40,1568.10473,1.56810473,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,2094.39,431.1366234,0.431136623,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,4886.91,2431.728151,2.431728151,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,698.13,2254.633079,2.254633079,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,9773.82,26359.25078,26.35925078,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,10960,1649.00039,1.64900039,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,3490.65,3504.079051,3.504079051,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,17453.25,1275.633398,1.275633398,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,16755.12,3078.878309,3.078878309,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,1396.26,866.1879126,0.866187913,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,698.13,4504.014601,4.504014601,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,21642.03,11118.4778,11.1184778,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,698.13,828.6244596,0.82862446,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,700922.52,90029.46827,90.02946827,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,40,348.457575,0.348457575,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,40,416.0866333,0.416086633,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,5585.04,10183.93687,10.18393687,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,4188.78,25810.27981,25.81027981,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,13264.47,43952.4901,43.9524901,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,12/06/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,1396.26,2825.141753,2.825141753,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,14660.73,7574.69602,7.57469602,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,2792.52,2472.827647,2.472827647,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,6283.17,1125.484845,1.125484845,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,80,4591.152163,4.591152163,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,2094.39,431.1366234,0.431136623,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,22340.16,1643.897397,1.643897397,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,3490.65,11273.1654,11.2731654,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,2094.39,5648.410882,5.648410882,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,4360,655.9892064,0.655989206,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,7679.43,1655.196366,1.655196366,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,698.13,131.8348692,0.131834869,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,3490.65,3504.079051,3.504079051,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,27925.2,2041.013437,2.041013437,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,11170.08,2052.585539,2.052585539,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,1396.26,866.1879126,0.866187913,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,9773.82,3632.182408,3.632182408,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,2792.52,1434.642297,1.434642297,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,4886.91,1880.662953,1.880662953,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,16755.12,35915.82843,35.91582843,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,698.13,828.6244596,0.82862446,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,104719.5,13450.61777,13.45061777,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,120,1045.372725,1.045372725,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,1396.26,2545.984217,2.545984217,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,6283.17,38715.41971,38.71541971,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,698.13,2313.288952,2.313288952,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,26/06/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,2792.52,1442.799242,1.442799242,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,2094.39,1854.620735,1.854620735,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,1396.26,2680.384162,2.680384162,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,698.13,49512.86894,49.51286894,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,11170.08,2000.861947,2.000861947,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,80,4591.152163,4.591152163,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,1396.26,164.1564242,0.164156424,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,698.13,1094.815329,1.094815329,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,1396.26,287.4244156,0.287424416,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,30717.72,41714.52003,41.71452003,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,8377.56,27055.59695,27.05559695,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,698.13,2254.633079,2.254633079,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,698.13,1882.803627,1.882803627,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,19880,2991.070051,2.991070051,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,2094.39,13335.8119,13.3358119,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,20943.9,4514.171908,4.514171908,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,2094.39,395.5046076,0.395504608,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,23038.29,1683.836085,1.683836085,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,18849.51,3463.738098,3.463738098,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,4886.91,3031.657694,3.031657694,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,698.13,259.4416006,0.259441601,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,4886.91,2510.624019,2.510624019,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,3490.65,671.3392613,0.671339261,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,1396.26,537.3322723,0.537332272,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,1396.26,1657.248919,1.657248919,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,622033.83,79896.66955,79.89666955,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,4886.91,8910.94476,8.91094476,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,6981.3,43017.13301,43.01713301,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,10/07/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,6981.3,3606.998105,3.606998105,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,2094.39,1854.620735,1.854620735,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,400,28368.85333,28.36885333,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,13264.47,2376.023562,2.376023562,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,698.13,487.2694404,0.48726944,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,760,43615.94555,43.61594555,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,62831.7,15541.09271,15.54109271,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,4188.78,492.4692726,0.492469273,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,4886.91,7663.707303,7.663707303,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,2792.52,574.8488313,0.574848831,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,13962.6,1027.435873,1.027435873,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,17453.25,8684.743395,8.684743395,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,320,114.5472,0.1145472,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,29321.46,94694.58932,94.69458932,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,2792.52,7531.214509,7.531214509,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,1160,991.6434,0.9916434,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,62831.7,13549.90391,13.54990391,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,12566.34,2708.503145,2.708503145,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,5585.04,2102.44743,2.10244743,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,5585.04,67661.13296,67.66113296,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,25132.68,1836.912093,1.836912093,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,25830.81,4746.60406,4.74660406,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,2792.52,1732.375825,1.732375825,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,11868.21,4410.50721,4.41050721,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,11868.21,1345.607206,1.345607206,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,4188.78,805.6071135,0.805607114,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,2094.39,805.9984084,0.805998408,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,10471.95,12429.36689,12.42936689,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,438425.64,56313.25306,56.31325306,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,160,1393.8303,1.3938303,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,5585.04,10183.93687,10.18393687,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,24/07/2018,62831.7,90735.78649,90.73578649,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,26528.94,13706.5928,13.7065928,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,4886.91,4327.448382,4.327448382,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,27227.07,4877.100995,4.877100995,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,5585.04,3898.155523,3.898155523,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,240,13773.45649,13.77345649,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,241552.98,59746.86755,59.74686755,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,1396.26,164.1564242,0.164156424,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,2792.52,4379.261316,4.379261316,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,7679.43,1580.834286,1.580834286,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,4188.78,1499.415689,1.499415689,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,4188.78,13527.79847,13.52779847,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,1396.26,3765.607254,3.765607254,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,192683.88,28990.49209,28.99049209,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,32113.98,6921.73026,6.92173026,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,16056.99,16118.76363,16.11876363,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,54454.14,3979.976201,3.979976201,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,30019.59,5516.323637,5.516323637,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,2094.39,1299.281869,1.299281869,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,19547.64,7264.364817,7.264364817,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,2094.39,13512.0438,13.5120438,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,3490.65,1242.893304,1.242893304,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,11868.21,6097.22976,6.09722976,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,4886.91,939.8749658,0.939874966,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,34208.37,40582.26331,40.58226331,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,698.13,828.6244596,0.82862446,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,112398.93,14436.99641,14.43699641,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,19547.64,35643.77904,35.64377904,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,1396.26,8603.426602,8.603426602,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,07/08/2018,1396.26,181471.573,181.471573,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,2094.39,1082.099431,1.082099431,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,3490.65,3091.034559,3.091034559,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,698.13,49512.86894,49.51286894,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,27227.07,4877.100995,4.877100995,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,6283.17,4385.424963,4.385424963,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,3490.65,863.3940397,0.86339404,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,698.13,82.0782121,0.082078212,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,698.13,1094.815329,1.094815329,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,7679.43,1580.834286,1.580834286,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,17453.25,20705.23638,20.70523638,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,698.13,249.9026148,0.249902615,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,4188.78,13527.79847,13.52779847,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,3490.65,9414.018136,9.414018136,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,2094.39,1790.420707,1.790420707,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,52359.75,7877.851112,7.877851112,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,15358.86,3310.392733,3.310392733,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,5585.04,5606.526481,5.606526481,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,9773.82,1404.697483,1.404697483,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,24434.55,1785.886757,1.785886757,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,32812.11,6029.470022,6.029470022,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,2792.52,1732.375825,1.732375825,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,17453.25,6486.040015,6.486040015,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,2094.39,1075.981722,1.075981722,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,2094.39,402.8035568,0.402803557,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,698.13,828.6244596,0.82862446,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,204552.09,26273.54004,26.27354004,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,698.13,725.9420286,0.725942029,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,5585.04,10183.93687,10.18393687,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,21/08/2018,400,51987.90282,51.98790282,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,698.13,360.6998105,0.36069981,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,3490.65,3091.034559,3.091034559,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,698.13,49512.86894,49.51286894,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,9773.82,1750.754203,1.750754203,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,4188.78,2923.616642,2.923616642,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,49567.23,12260.19536,12.26019536,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,698.13,82.0782121,0.082078212,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,6981.3,1437.122078,1.437122078,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,16755.12,1232.923048,1.232923048,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,698.13,249.9026148,0.249902615,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,5585.04,18037.06463,18.03706463,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,3490.65,9414.018136,9.414018136,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,2792.52,2387.22761,2.38722761,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,50963.49,7667.775083,7.667775083,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,7679.43,1655.196366,1.655196366,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,2094.39,2102.44743,2.10244743,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,25830.81,1887.937429,1.887937429,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,25132.68,4618.317463,4.618317463,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,1396.26,866.1879126,0.866187913,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,11170.08,4151.06561,4.15106561,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,4188.78,27024.08761,27.02408761,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,1396.26,497.1573214,0.497157321,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,4886.91,2510.624019,2.510624019,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,3490.65,671.3392613,0.671339261,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,1396.26,1345.607206,1.345607206,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,18151.38,21533.44584,21.53344584,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,698.13,72.52121649,0.072521216,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,94945.68,12195.22678,12.19522678,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,2792.52,2903.768114,2.903768114,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,12566.34,22913.85795,22.91385795,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,03/09/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,8377.56,4328.397726,4.328397726,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,2792.52,2472.827647,2.472827647,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,6283.17,1125.484845,1.125484845,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,5585.04,3898.155523,3.898155523,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,6283.17,1554.109271,1.554109271,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,4886.91,1005.985455,1.005985455,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,16755.12,19877.02693,19.87702693,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,8377.56,27055.59695,27.05559695,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,11868.21,32007.66166,32.00766166,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,698.13,596.8069025,0.596806902,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,24434.55,3676.330519,3.676330519,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,4886.91,1053.306779,1.053306779,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,698.13,700.8158101,0.70081581,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,15358.86,1122.55739,1.12255739,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,24434.55,4490.030867,4.490030867,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,2094.39,1299.281869,1.299281869,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,5585.04,2075.532805,2.075532805,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,698.13,552.4163064,0.552416306,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,1396.26,9008.029203,9.008029203,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,2792.52,994.3146428,0.994314643,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,3490.65,1793.302871,1.793302871,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,5585.04,1074.142818,1.074142818,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,5585.04,580.1697319,0.580169732,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,1396.26,828.6244596,0.82862446,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,78888.69,10132.79872,10.13279872,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,1396.26,1451.884057,1.451884057,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,2792.52,5091.968434,5.091968434,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,17/09/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,4886.91,2524.898673,2.524898673,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,3490.65,3091.034559,3.091034559,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,26528.94,20143.75363,20.14375363,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,698.13,125.0538717,0.125053872,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,2792.52,1949.077761,1.949077761,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,8377.56,2072.145695,2.072145695,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,698.13,66.28857331,0.066288573,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,2792.52,574.8488313,0.574848831,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,698.13,249.9026148,0.249902615,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,9075.69,29310.23003,29.31023003,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,3490.65,9414.018136,9.414018136,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,698.13,700.8158101,0.70081581,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,1396.26,200.671069,0.200671069,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,4886.91,357.1773514,0.357177351,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,13962.6,2565.731924,2.565731924,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,1396.26,518.8832012,0.518883201,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,1396.26,268.5357045,0.268535705,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,698.13,672.8036029,0.672803603,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,3490.65,4141.047277,4.141047277,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,698.13,828.6244596,0.82862446,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,44680.32,5738.930248,5.738930248,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,40,348.457575,0.348457575,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,2094.39,3818.976326,3.818976326,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,01/10/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,5585.04,2885.598484,2.885598484,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,4188.78,3709.241471,3.709241471,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,18849.51,14312.66705,14.31266705,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,698.13,49512.86894,49.51286894,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,1396.26,250.1077434,0.250107743,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,4886.91,3410.886083,3.410886083,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,3490.65,863.3940397,0.86339404,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,698.13,66.28857331,0.066288573,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,2792.52,574.8488313,0.574848831,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,4188.78,4969.256732,4.969256732,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,6981.3,22546.33079,22.54633079,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,4886.91,13179.62539,13.17962539,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,1396.26,300.9447939,0.300944794,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,1396.26,1401.63162,1.40163162,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,25132.68,3612.079242,3.612079242,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,6981.3,510.2533591,0.510253359,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,8377.56,1539.439154,1.539439154,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,3490.65,1297.208003,1.297208003,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,1396.26,497.1573214,0.497157321,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,698.13,268.6661361,0.268666136,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,2792.52,205.4871746,0.205487175,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,1396.26,145.042433,0.145042433,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,1396.26,1657.248919,1.657248919,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,34906.5,4483.539256,4.483539256,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,2792.52,5091.968434,5.091968434,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,17/10/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,8377.56,7418.482941,7.418482941,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,20245.77,15372.86461,15.37286461,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,2094.39,375.161615,0.375161615,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,1396.26,974.5388807,0.974538881,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,698.13,172.6788079,0.172678808,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,698.13,66.28857331,0.066288573,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,698.13,414.4492378,0.414449238,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,4886.91,1005.985455,1.005985455,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,4188.78,4969.256732,4.969256732,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,16755.12,54111.1939,54.1111939,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,2792.52,7531.214509,7.531214509,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,698.13,4445.270635,4.445270635,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,698.13,150.4723969,0.150472397,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,698.13,700.8158101,0.70081581,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,2094.39,153.0760077,0.153076008,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,6283.17,1154.579366,1.154579366,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,2792.52,1037.766402,1.037766402,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,2094.39,1075.981722,1.075981722,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,12566.34,1614.074132,1.614074132,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,2792.52,5091.968434,5.091968434,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,30/10/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,6283.17,3246.298294,3.246298294,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,9075.69,8036.689853,8.036689853,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,24434.55,18553.45729,18.55345729,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,6981.3,1250.538717,1.250538717,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,1396.26,974.5388807,0.974538881,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,7679.43,1580.834286,1.580834286,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,4188.78,308.2307619,0.308230762,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,6283.17,20291.69771,20.29169771,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,8377.56,22593.64353,22.59364353,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,3490.65,3504.079051,3.504079051,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,13962.6,1020.506718,1.020506718,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,9773.82,1796.012347,1.796012347,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,698.13,358.6605741,0.358660574,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,3490.65,1297.208003,1.297208003,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,1396.26,497.1573214,0.497157321,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,2792.52,1434.642297,1.434642297,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,698.13,134.2678523,0.134267852,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,698.13,906.559184,0.906559184,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,5585.04,6625.675643,6.625675643,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,2094.39,2485.873379,2.485873379,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,33510.24,4304.197686,4.304197686,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,4886.91,8910.94476,8.91094476,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,698.13,4301.713301,4.301713301,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,13/11/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,5585.04,2885.598484,2.885598484,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,6981.3,6182.069118,6.182069118,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,1396.26,2680.384162,2.680384162,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,2792.52,2120.395119,2.120395119,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,8377.56,1500.64646,1.50064646,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,2792.52,1949.077761,1.949077761,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,698.13,172.6788079,0.172678808,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,698.13,66.28857331,0.066288573,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,5585.04,1149.697663,1.149697663,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,1436.26,120.576,0.120576,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,2792.52,205.4871746,0.205487175,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,1396.26,4509.266158,4.509266158,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,5585.04,15062.42902,15.06242902,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,698.13,4445.270635,4.445270635,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,2094.39,2102.44743,2.10244743,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,4188.78,306.1520155,0.306152015,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,10471.95,1924.298943,1.924298943,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,698.13,433.0939563,0.433093956,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,6283.17,2334.974405,2.334974405,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,698.13,358.6605741,0.358660574,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,2094.39,745.7359821,0.745735982,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,1396.26,717.3211483,0.717321148,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,2094.39,402.8035568,0.402803557,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,6283.17,7453.885098,7.453885098,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,698.13,72.52121649,0.072521216,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,698.13,828.6244596,0.82862446,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,13962.6,1793.415703,1.793415703,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,600,623.9027361,0.623902736,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,26/11/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,4240,2190.662479,2.190662479,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,9773.82,8654.896765,8.654896765,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,698.13,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,4886.91,875.3771017,0.875377102,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,6283.17,4875.425548,4.875425548,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,9075.69,861.751453,0.861751453,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,2094.39,431.1366234,0.431136623,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,1396.26,4509.266158,4.509266158,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,6981.3,18828.03627,18.82803627,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,4188.78,4204.894861,4.204894861,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,2792.52,204.1013437,0.204101344,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,7679.43,1411.152558,1.411152558,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,8377.56,3113.299207,3.113299207,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,1396.26,497.1573214,0.497157321,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,2094.39,402.8035568,0.402803557,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,1396.26,1656.418911,1.656418911,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,4188.78,538.0247108,0.538024711,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,520,540.7157046,0.540715705,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,3520,6418.478252,6.418478252,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,698.13,4301.713301,4.301713301,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,18/12/2018,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,5585.04,2885.598484,2.885598484,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,9773.82,8654.896765,8.654896765,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,1396.26,2680.384162,2.680384162,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,3490.65,625.2693584,0.625269358,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,2094.39,1461.808321,1.461808321,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,1396.26,345.3576159,0.345357616,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,6981.3,662.8857331,0.662885733,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,4188.78,862.2732469,0.862273247,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,698.13,828.2094554,0.828209455,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,2792.52,7531.214509,7.531214509,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,3490.65,3504.079051,3.504079051,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,1396.26,102.0506718,0.102050672,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,3490.65,641.432981,0.641432981,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,698.13,552.4163064,0.552416306,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,698.13,4504.014601,4.504014601,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,698.13,248.5786607,0.248578661,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,1396.26,179.3415703,0.17934157,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,4760,8679.533091,8.679533091,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,14/01/2019,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,6981.3,3606.998105,3.606998105,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,4886.91,4327.448382,4.327448382,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,11868.21,9011.679254,9.011679254,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2094.39,375.161615,0.375161615,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,4188.78,2923.616642,2.923616642,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2792.52,690.7152317,0.690715232,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,6981.3,662.8857331,0.662885733,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2792.52,574.8488313,0.574848831,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,5585.04,410.9743493,0.410974349,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,3490.65,9414.018136,9.414018136,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2094.39,2102.44743,2.10244743,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2792.52,204.1013437,0.204101344,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2792.52,513.1463848,0.513146385,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,698.13,552.4163064,0.552416306,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2792.52,994.3146428,0.994314643,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,1396.26,717.3211483,0.717321148,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2792.52,537.071409,0.537071409,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,1396.26,1656.418911,1.656418911,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,6283.17,807.0370661,0.807037066,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2320,4230.360666,4.230360666,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,2094.39,12905.1399,12.9051399,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,28/01/2019,0,0,0,Woronichinia,5d-SmallChroo,R
+Amphora,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Amphora,6b2-LUniPenn,CR
+Asterionella formosa,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,16056.99,8296.095641,8.296095641,Asterionella,6b1-LColPenn,R
+Aulacoseira alpigena,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,3490.65,3091.034559,3.091034559,Aulacoseira,6a1-LColCent,CR
+Aulacoseira distans,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,698.13,1340.192081,1.340192081,Aulacoseira,7a-SmallCent,R
+Aulacoseira subarctica,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Aulacoseira,7a-SmallCent,R
+Botryococcus braunii,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Botryococcus,11a-NakeChlor,CR
+Centric Diatom Large,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Centric,7a-SmallCent,C
+Centric Diatom Small,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,1396.26,250.1077434,0.250107743,Centric,7a-SmallCent,C
+Centric Diatoms,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,2792.52,1949.077761,1.949077761,Centric,7a-SmallCent,C
+Ceratium,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Ceratium,1b-LargeDino,S
+Chlamydomonas,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,2094.39,518.0364238,0.518036424,Chlamydomonas,3a-UnicPhyto,C
+Chromulina,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,4886.91,464.0200131,0.464020013,Chromulina,2a-SmallChry1,C
+Chroomonas,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Chroomonas,2d-Crypto,CR
+Closterium,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Closterium,8a-LargeCoCh,CR
+Closterium  kuetzingii,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Closterium,8a-LargeCoCh,S
+Closterium acutum,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,4188.78,862.2732469,0.862273247,Closterium,8a-LargeCoCh,R
+Closterium gracile,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Closterium,8a-LargeCoCh,R
+Coenococcus,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,2094.39,2484.628366,2.484628366,Coenococcus,1a-LargeChry,SR
+Coenococcus planctonicus,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Coenococcus,1a-LargeChry,SR
+Cosmarium,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Cosmarium,8a-LargeCoCh,R
+Cryptomonas,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Cryptomonas,2d-Crypto,R
+Cryptomonas marssonii,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Cryptomonas,2d-Crypto,C
+Cyclotella,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,698.13,1882.803627,1.882803627,Cyclotella,7a-SmallCent,C
+Cymbella,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Cymbella,6b1-LColPenn,R
+Dinobryon sociale,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Dinobryon,1a-LargeChry,SR
+Dolichospermum flos-aquae,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Dolichospermum,5e-Nostocales,S
+Elakatothrix gelatinosa,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Elakatothrix,11b-GelaChlor,R
+Eunotia,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Eunotia,6b1-LColPenn,R
+Fragilaria crotonensis,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Fragilaria,6b1-LColPenn,R
+Gomphonema truncatum,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Gomphonema,7b-SmallPenn,R
+Gymnodinium,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,698.13,700.8158101,0.70081581,Gymnodinium,2b-SmallDino,R
+Gymnodinium (big),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Gymnodinium,2b-SmallDino,SC
+Kirchneriella obesa,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Kirchneriella,11b-GelaChlor,R
+Merismopedia,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Merismopedia,5d-SmallChroo,R
+Monoraphidium contortum,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,1396.26,102.0506718,0.102050672,Monoraphidium,9b-SmallChlor,R
+Monoraphidium minutum,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,1396.26,256.5731924,0.256573192,Monoraphidium,9b-SmallChlor,R
+Oocystis,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Oocystis,9b-SmallChlor,R
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (fat),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (large),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms (long),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,698.13,4504.014601,4.504014601,Pennate,7b-SmallPenn,CR
+Pennate diatoms (short fat),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,1396.26,497.1573214,0.497157321,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,2792.52,1434.642297,1.434642297,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (curved),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (dots),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pennate diatoms cylindrical (long),Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pennate,7b-SmallPenn,CR
+Pyramimonadales,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Pyramimonadales,3a-UnicPhyto,C
+Radiococcus polycoccus,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,3490.65,256.8589683,0.256858968,Radiococcus,11a-NakeChlor,CR
+Raphidocelis,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Raphidocelis,11b-GelaChlor,S
+Rhizosolenia,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Rhizosolenia,6a2-LUniCent,CR
+Rhodomonas minuta,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,1396.26,179.3415703,0.17934157,Rhodomonas,2d-Crypto,C
+Staurastrum,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Staurastrum,9a-SmallConj,CR
+Staurastrum avicula var. lunatum,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Staurastrum,8a-LargeCoCh,S
+Tabellaria,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Tabellaria,6b1-LColPenn,CR
+Tabellaria fenestrata,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,2160,3938.611655,3.938611655,Tabellaria,6b1-LColPenn,R
+Tabellaria flocculosa,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Tabellaria,7b-SmallPenn,CR
+Trachelomonas volvocina,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Trachelomonas,2c-SmallEugl,CR
+Ulnaria ulna,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Ulnaria,6b1-LColPenn,R
+Woronichinia,Feeagh,AWQMS,tube,NA,y,0,6,18/02/2019,0,0,0,Woronichinia,5d-SmallChroo,R

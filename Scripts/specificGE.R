@@ -153,7 +153,7 @@ OsciSize
 #save figure as image 
 ggsave("Figures/OsciSize .jpeg", width = 12, height = 8, units = "cm")
 
-#CLEARANCE RATES
+#CLEARANCE RATES, INGESTION RATES AND EFFEC SIZES
 #remotes::install_github("coolbutuseless/ggpattern")
 library(ggpattern)
 #input file

@@ -31,7 +31,7 @@ Fig_BI_SIA <- ggplot(SIAdf, aes(x=C13mean, y=N15mean)) +
                              "Sediment"="orange4",
                              "Periphyton"="yellow3",
                              "Leaves"="orange",
-                             "Soil"="gray20")) +
+                             "Peat"="gray20")) +
   guides(fill = guide_legend(override.aes = list(shape = 21)))+
   geom_errorbar(data = SIAdf, 
                mapping = aes(x = C13mean,
@@ -45,9 +45,9 @@ Fig_BI_SIA <- ggplot(SIAdf, aes(x=C13mean, y=N15mean)) +
                  height = 0, inherit.aes = FALSE)+
   
   xlim(-32, -15)+
-  xlab("C-13 (towards autochthony)")+
+  xlab("C-13")+
   ylim(-5,15)+
-  ylab("N-15 (towards higher trophic levels)")+
+  ylab("N-15")+
 geom_text(data=SIAdf,aes(x=C13mean,y=N15mean,label=Sample_ID),size=3,vjust=2, alpha = 0.8, check_overlap = F) +
  theme(text = element_text(size = 10))+
   geom_hline(yintercept = 5, lty = 2) +

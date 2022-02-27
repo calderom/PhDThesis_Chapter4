@@ -251,9 +251,9 @@ crust_A <- ggplot(crustaceans_A, aes(x = Date, y = Value, fill = Variable))+
                     values = c("Diaphanosoma"="turquoise1",
                                "Daphnia"="blue",
                                "Ceriodaphnia"="red",
-                               "Nauplii"="yellow",
                                "Bosmina"="grey40",
-                               "Cyclopoid" = "green4",
+                               "Nauplii"="yellow",
+                              "Cyclopoid" = "green4",
                                "Calanoid" = "green3"))+
   ylab(~paste("Crustaceans ", "(ind", "·L"^-1, ")"))+
   scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
@@ -292,8 +292,8 @@ crust_B <- ggplot(crustaceans_B, aes(x = Date, y = Value, fill = Variable))+
                     values = c("Diaphanosoma"="turquoise1",
                                "Daphnia"="blue",
                                "Ceriodaphnia"="red",
-                               "Nauplii"="yellow",
                                "Bosmina"="grey40",
+                               "Nauplii"="yellow",
                                "Cyclopoid" = "green4",
                                "Calanoid" = "green3"))+
   ylab(~paste("Crustaceans ", "(ugDW", "·L"^-1, ")"))+

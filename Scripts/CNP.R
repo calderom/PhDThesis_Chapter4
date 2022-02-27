@@ -41,7 +41,7 @@ Fig_CN_A <- ggplot(CNPdf, aes(x=Cper_m, y=Nper_m)) +
                              "Sediment"="orange4",
                              "Periphyton"="yellow3",
                              "Leaves"="orange",
-                             "Soil"="gray20")) +
+                             "Peat"="gray20")) +
   guides(fill = guide_legend(override.aes = list(shape = 21)))+
   geom_errorbar(data = CNPdf, 
                 mapping = aes(x = Cper_m,
@@ -83,7 +83,7 @@ Fig_CN_B <- ggplot(CNPdf, aes(x=Cper_m, y=Pper_m)) +
                              "Sediment"="orange4",
                              "Periphyton"="yellow3",
                              "Leaves"="orange",
-                             "Soil"="gray20")) +
+                             "Peat"="gray20")) +
   guides(fill = guide_legend(override.aes = list(shape = 21)))+
   geom_errorbar(data = CNPdf, 
                 mapping = aes(x = Cper_m,
@@ -210,7 +210,8 @@ str(CNPdf)
 names(CNPdf)
 
 #plots
-Fig_CPvsNP <- ggplot(CNPdf, aes(x=lnCP, y=lnNP)) + 
+Fig_CPvsNP <- ggplot(CNPdf, aes(x=lnCP, y=lnNP)) +
+  geom_smooth(method=lm, se=FALSE, colour="grey60", fill="grey60", alpha = 0.3)+
   geom_point(aes(shape = Sample_type , fill = Sample_name), size=5) + # add the point markers
   scale_shape_manual(name = "Sample_type",
                      values =c("Lake" = 21,
@@ -226,14 +227,15 @@ Fig_CPvsNP <- ggplot(CNPdf, aes(x=lnCP, y=lnNP)) +
                              "Sediment"="orange4",
                              "Periphyton"="yellow3",
                              "Leaves"="orange",
-                             "Soil"="gray20")) +
+                             "Peat"="gray20")) +
   guides(fill = guide_legend(override.aes = list(shape = 21)))+
   xlab("ln(C:P) molar")+
   ylab("ln(N:P) molar")+
   geom_text(data=CNPdf,aes(x=lnCP,y=lnNP,label=Sample_ID),size=3,vjust=2, alpha = 0.8, check_overlap = F) +
   theme(text = element_text(size = 10))+
   theme(panel.background = element_rect(fill = "white", colour = "black"),
-        legend.position = "none", legend.key.size = unit(0.2, 'cm'))
+        legend.position = "right", legend.key.size = unit(0.2, 'cm'))
+  
 
 #view plots
 Fig_CPvsNP
@@ -257,7 +259,7 @@ Fig_CNvsNP <- ggplot(CNPdf, aes(x=lnCN, y=lnNP)) +
                              "Sediment"="orange4",
                              "Periphyton"="yellow3",
                              "Leaves"="orange",
-                             "Soil"="gray20")) +
+                             "Peat"="gray20")) +
   guides(fill = guide_legend(override.aes = list(shape = 21)))+
   xlab("ln(C:N) molar")+
   ylab("ln(N:P) molar")+

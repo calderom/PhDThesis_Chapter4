@@ -496,7 +496,7 @@ BIPLOTdf$FAME  <- ordered(BIPLOTdf$FAME , levels=c("terrFA",
                                                    "BAFA",
                                                    "n-6 PUFA",
                                                    "n-3 PUFA"))
-my.formula <- y ~ x
+#my.formula <- y ~ x
 
 Fig_BI_A <- ggplot(BIPLOTdf, aes(x=RIVERw, y=LAKEw)) + 
   geom_point(aes(shape = FAME, fill = FAME), size=4) + # add the point markers
@@ -528,10 +528,10 @@ Fig_BI_A <- ggplot(BIPLOTdf, aes(x=RIVERw, y=LAKEw)) +
   xlab("BR winter seston FA (%)")+
   ylim(0,65)+
   ylab("LF winter seston FA (%)")+
-  geom_smooth(method=lm , color="black", fill="grey80", se=FALSE, formula = my.formula) +
-  stat_poly_eq(formula = my.formula, 
-               aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
-               parse = TRUE, size=2)+
+  #geom_smooth(method=lm , color="black", fill="grey80", se=FALSE, formula = my.formula) +
+  #stat_poly_eq(formula = my.formula, 
+              # aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
+               #parse = TRUE, size=2)+
   geom_abline(intercept = 0, color = "grey20")+
   theme(text = element_text(size = 10))+
   theme(panel.background = element_rect(fill = "white", colour = "black"),
