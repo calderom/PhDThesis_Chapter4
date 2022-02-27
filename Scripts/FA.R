@@ -603,6 +603,7 @@ Fig_FA.biplots
 #save figure as image --> no legends because slightly different!
 ggsave("Figures/Fig_FA.biplots.jpeg", width = 20, height = 8, units = "cm")
 
+
 #biplots individual figures saved
 Fig_BI_A <- ggplot(BIPLOTdf, aes(x=RIVERw, y=LAKEw)) + 
   geom_point(aes(shape = FAME, fill = FAME), size=4) + # add the point markers
@@ -634,17 +635,52 @@ Fig_BI_A <- ggplot(BIPLOTdf, aes(x=RIVERw, y=LAKEw)) +
   xlab("BR winter seston FA (%)")+
   ylim(0,65)+
   ylab("LF winter seston FA (%)")+
-  geom_smooth(method=lm , color="black", fill="grey80", se=FALSE, formula = my.formula) +
-  stat_poly_eq(formula = my.formula, 
-               aes(label = paste(..eq.label.., ..rr.label.., sep = "~~~")), 
-               parse = TRUE, size=2)+
   geom_abline(intercept = 0, color = "grey20")+
   theme(text = element_text(size = 10))+
   theme(panel.background = element_rect(fill = "white", colour = "black"))
 
 Fig_BI_A 
+
 ggsave("Figures/Fig_BI_A.jpeg", width = 8, height = 5, units = "cm")
 
+#linear regression
+
+model <- lm(LAKEw~RIVERw, data=BIPLOTdf)
+summary(model)
+
+summary.aov(model)
+
+#residuals
+layout(matrix(c(1,1,2,3),2,2,byrow=T))
+#RIVERw x Residuals Plot
+plot(model$resid~BIPLOTdf$RIVERw[order(BIPLOTdf$RIVERw)],
+     main="RIVERw x Residuals\nfor Simple Regression",
+     xlab="RIVERw", ylab="Residuals")
+abline(h=0,lty=2)
+#Histogram of Residuals
+hist(model$resid, main="Histogram of Residuals",
+     ylab="Residuals")
+#Q-Q Plot
+qqnorm(model$resid)
+qqline(model$resid)
+
+#test residuals are normally distributed
+install.packages("fBasics")
+library(fBasics)
+jarqueberaTest(model$resid) #Test residuals for normality
+#Null Hypothesis: Skewness and Kurtosis are equal to zero = residuals are normally distributed
+#Residuals X-squared: 2.4053 p Value: 0.3004 
+#p-value > 0.05 --> accept the null hypothesis
+
+#test residuals are independent
+library(lmtest) #dwtest
+dwtest(model) #Test for independence of residuals
+#Null Hypothesis: there is no correlation among the residuals
+#Results: DW = 2.0817, p-value = 0.6007
+#p-value > 0.05 --> accept the null hypothesis 
+
+
+#################################################
 
 Fig_BI_B <- ggplot(BIPLOTdf, aes(x=LAKEw, y=DAPw)) + 
   geom_point(aes(fill = FAME),  shape = 22,  size=4) + 
@@ -672,6 +708,43 @@ Fig_BI_B <- ggplot(BIPLOTdf, aes(x=LAKEw, y=DAPw)) +
 Fig_BI_B
 ggsave("Figures/Fig_BI_B.jpeg", width = 8, height = 5, units = "cm")
 
+#linear regression
+
+model <- lm(DAPw~LAKEw, data=BIPLOTdf)
+summary(model)
+
+
+#residuals
+layout(matrix(c(1,1,2,3),2,2,byrow=T))
+#LAKEw x Residuals Plot
+plot(model$resid~BIPLOTdf$LAKEw[order(BIPLOTdf$LAKEw)],
+     main="LAKEw x Residuals\nfor Simple Regression",
+     xlab="LAKEw", ylab="Residuals")
+abline(h=0,lty=2)
+#Histogram of Residuals
+hist(model$resid, main="Histogram of Residuals",
+     ylab="Residuals")
+#Q-Q Plot
+qqnorm(model$resid)
+qqline(model$resid)
+
+#test residuals are normally distributed
+install.packages("fBasics")
+library(fBasics)
+jarqueberaTest(model$resid) #Test residuals for normality
+#Null Hypothesis: Skewness and Kurtosis are equal to zero = residuals are normally distributed
+#Residuals X-squared: 0.2844 p Value: 0.8675  
+#p-value > 0.05 --> accept the null hypothesis
+
+#test residuals are independent
+library(lmtest) #dwtest
+dwtest(model) #Test for independence of residuals
+#Null Hypothesis: there is no correlation among the residuals
+#Results: DW = 1.5142, p-value = 0.1993
+#p-value > 0.05 --> accept the null hypothesis 
+
+#################################################
+
 Fig_BI_C <- ggplot(BIPLOTdf, aes(x=LAKEw, y=CALAw)) + 
   geom_point(aes(fill = FAME),  shape = 25,  size=4) + 
   geom_errorbarh(data = BIPLOTdf, 
@@ -698,3 +771,38 @@ Fig_BI_C <- ggplot(BIPLOTdf, aes(x=LAKEw, y=CALAw)) +
 
 Fig_BI_C
 ggsave("Figures/Fig_BI_C.jpeg", width = 8, height = 5, units = "cm")
+
+#linear regression
+
+model <- lm(CALAw~LAKEw, data=BIPLOTdf)
+summary(model)
+
+
+#residuals
+layout(matrix(c(1,1,2,3),2,2,byrow=T))
+#LAKEw x Residuals Plot
+plot(model$resid~BIPLOTdf$LAKEw[order(BIPLOTdf$LAKEw)],
+     main="LAKEw x Residuals\nfor Simple Regression",
+     xlab="LAKEw", ylab="Residuals")
+abline(h=0,lty=2)
+#Histogram of Residuals
+hist(model$resid, main="Histogram of Residuals",
+     ylab="Residuals")
+#Q-Q Plot
+qqnorm(model$resid)
+qqline(model$resid)
+
+#test residuals are normally distributed
+install.packages("fBasics")
+library(fBasics)
+jarqueberaTest(model$resid) #Test residuals for normality
+#Null Hypothesis: Skewness and Kurtosis are equal to zero = residuals are normally distributed
+#Residuals X-squared: 0.2844 p Value: 0.8675  
+#p-value > 0.05 --> accept the null hypothesis
+
+#test residuals are independent
+library(lmtest) #dwtest
+dwtest(model) #Test for independence of residuals
+#Null Hypothesis: there is no correlation among the residuals
+#Results: DW = 1.5142, p-value = 0.1993
+#p-value > 0.05 --> accept the null hypothesis 
