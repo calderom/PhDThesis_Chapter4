@@ -361,7 +361,8 @@ c <- ggplot(P_content, aes(x = Date, y = Value, group=Variable))+
         legend.position = "right")+
   geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
 c
-d <- ggplot(stoich, aes(x = sestonC, y = zooC))+ 
+d <- ggplot(stoich, aes(x = sestonC, y = zooC))+
+  geom_smooth(method=lm, se=FALSE, colour="orange2", fill="grey60", alpha = 0.3)+
   geom_point(colour = "black", fill = "orange2", size=3, shape=21)+ 
   ylab("Zooplankton C (uM)")+
   ylim(0,20)+
@@ -372,6 +373,7 @@ d <- ggplot(stoich, aes(x = sestonC, y = zooC))+
         text = element_text(size = 10))
 d
 e <- ggplot(stoich, aes(x = sestonN, y = zooN))+ 
+  geom_smooth(method=lm, se=FALSE, colour="green2", linetype = "dashed", fill="grey60", alpha = 0.3)+
   geom_point(colour = "black", fill = "green2", size=3, shape=21)+ 
   ylab("Zooplankton N (uM)")+
   ylim(0,2)+
@@ -382,6 +384,7 @@ e <- ggplot(stoich, aes(x = sestonN, y = zooN))+
         text = element_text(size = 10))
 e
 f <- ggplot(stoich, aes(x = sestonP, y = zooP))+ 
+  geom_smooth(method=lm, se=FALSE, colour="deeppink2", fill="grey60", alpha = 0.3)+
   geom_point(colour = "black", fill = "deeppink2", size=3, shape=21)+ 
   ylab("Zooplankton P (uM)")+
   ylim(0,0.06)+
@@ -408,6 +411,68 @@ NutrientContent <- plot_grid(title, contentPlot, ncol=1, rel_heights = c(0.1, 1)
 
 #save figure as image 
 ggsave("Figures/NutrientContent.jpeg", width = 28, height = 15, units = "cm")
+
+
+#LINEAR REGRESSIONS
+
+model1 <- lm(zooC~sestonC,data=stoich)
+summary(model1)
+#R2 = 0.19 p-value = 0.02
+
+#test residuals are normally distributed
+install.packages("fBasics")
+library(fBasics)
+jarqueberaTest(model1$resid) #Test residuals for normality
+#Null Hypothesis: Skewness and Kurtosis are equal to zero = residuals are normally distributed
+#Residuals X-squared: 0.9716 p Value: 0.6152  
+#p-value > 0.05 --> accept the null hypothesis
+
+#test residuals are independent
+library(lmtest) #dwtest
+dwtest(model1) #Test for independence of residuals
+#Null Hypothesis: there is no correlation among the residuals
+#Results: DW = 2.1586, p-value = 0.611
+#p-value > 0.05 --> accept the null hypothesis 
+
+model2 <- lm(zooN~sestonN,data=stoich)
+summary(model2)
+#R2 = 0.05 p-value = 0.26
+
+#test residuals are normally distributed
+install.packages("fBasics")
+library(fBasics)
+jarqueberaTest(model2$resid) #Test residuals for normality
+#Null Hypothesis: Skewness and Kurtosis are equal to zero = residuals are normally distributed
+#Residuals X-squared: 8.5523 p Value: 0.0139 
+#p-value < 0.05 --> reject the null hypothesis --> residuals are NOT normally distributed
+
+#test residuals are independent
+library(lmtest) #dwtest
+dwtest(model2) #Test for independence of residuals
+#Null Hypothesis: there is no correlation among the residuals
+#Results: DW = 2.229, p-value = 0.7027
+#p-value > 0.05 --> accept the null hypothesis 
+
+
+model3 <- lm(zooP~sestonP,data=stoich)
+summary(model3)
+#R2 = 0.23 p-value = 0.01
+
+#test residuals are normally distributed
+install.packages("fBasics")
+library(fBasics)
+jarqueberaTest(model2$resid) #Test residuals for normality
+#Null Hypothesis: Skewness and Kurtosis are equal to zero = residuals are normally distributed
+#Residuals X-squared: 0.6718 p Value: 0.7147  
+#p-value > 0.05 --> accept the null hypothesis
+
+#test residuals are independent
+library(lmtest) #dwtest
+dwtest(model2) #Test for independence of residuals
+#Null Hypothesis: there is no correlation among the residuals
+#Results: DW = 2.118, p-value = 0.5837
+#p-value > 0.05 --> accept the null hypothesis 
+
 
 
 #NUTRIENT RATIOS

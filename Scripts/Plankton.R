@@ -544,17 +544,28 @@ dwtest(model) #Test for independence of residuals
 #Results: DW = 0.96039, p-value = 0.001374
 #p-value < 0.05 --> reject the null hypothesis
 
-#GLMM (to be able to add an autocorrelation structure)
+#GLS (to be able to add an autocorrelation structure)
 install.packages("nlme")
 library(nlme)
-library(mgcv)
+layout(matrix(c(1,1,1,1),1,1,byrow=T))
 
-model1 <- lme(ln_ZooNZooPtaxaDW~1,random=~1|f,data=ESplankdf,correlation=corAR1())
+#Temporal autocorrelation structures
+cs1 <- corARMA(c(0.2), p=1, q=0)
+cs2 <- corARMA(c(0.3,-0.3), p=2, q=0)
+cs3 <- corARMA(c(0.2, 0.3, -0.1), p = 1, q = 2)
+cs4 <- corARMA(c(0.2), p=0, q=1)
+cs5 <- corARMA(c(0.2, 0.3, -0.1), p = 2, q = 1)
+cs6 <- corARMA(c(0.2, 0.3), p = 1, q = 1)
 
 
+model1 <- gls(ln_ZooNZooPtaxaDW~sestonN.P,data=ESplankdf)
+summary(model1)
 
-
-
+plot(fitted(model1),residuals(model1)) #ok
+abline(h=0,lty=3)
+qqnorm(model1) #ok
+acf(residuals(model1)) #ok
+acf(residuals(model1),type="partial") #ok
 
 
 
