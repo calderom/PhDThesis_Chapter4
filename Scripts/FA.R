@@ -396,7 +396,7 @@ plotsaligned <- AlignPlots(A_terrFA,E_n6PUFA,
 Fig_FA.quantities <- do.call("plot_grid", c(plotsaligned, 
                                             ncol = 2, 
                                             nrow = 4, 
-                                            labels =c("a","e","b","f","c","g", "d", "h")))
+                                            labels = "auto"))
 
 #View plot
 Fig_FA.quantities
