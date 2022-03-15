@@ -478,7 +478,7 @@ plotsaligned <- AlignPlots(Fig_FA.retention,Fig_FA.differences)
 Fig_FA.heatmaps <- do.call("plot_grid", c(plotsaligned, 
                                           ncol = 1, 
                                           nrow = 2, 
-                                          labels =c("a","b")))
+                                          labels ="auto"))
 Fig_FA.heatmaps
 
 #save figure as image

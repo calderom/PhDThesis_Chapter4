@@ -576,7 +576,8 @@ a <- ggplot(stoich, aes(x = Date, y = C.Nimb))+
   scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10), axis.title.x = element_blank())+
-  geom_hline(yintercept=0, linetype=2, size=1, colour="red")
+  geom_hline(yintercept=0, linetype=2, size=1, colour="red")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
 b <- ggplot(stoich, aes(x = Date, y = C.Pimb))+ 
   geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
   ylab("C:P imbalance")+
@@ -584,7 +585,8 @@ b <- ggplot(stoich, aes(x = Date, y = C.Pimb))+
   scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10), axis.title.x = element_blank())+
-  geom_hline(yintercept=0, linetype=2, size=1, colour="red")
+  geom_hline(yintercept=0, linetype=2, size=1, colour="red")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
 c <- ggplot(stoich, aes(x = Date, y = N.Pimb))+ 
   geom_bar(stat = "identity", colour = "black", fill = "grey40", width=6)+ 
   ylab("N:P imbalance")+
@@ -592,10 +594,11 @@ c <- ggplot(stoich, aes(x = Date, y = N.Pimb))+
   scale_x_date(breaks=date_breaks("1 month"),labels=date_format("%b")) +
   theme(panel.background = element_rect(fill = 'white', colour = 'black'),
         text = element_text(size = 10), axis.title.x = element_blank())+
-  geom_hline(yintercept=0, linetype=2, size=1, colour="red")
+  geom_hline(yintercept=0, linetype=2, size=1, colour="red")+
+  geom_vline(xintercept = as.Date("2018-06-14"), linetype="dotdash", colour = "red")
 
 imbPlot <- plot_grid(a,b,c,
-                     align="hv", axis="tblr", ncol = 3)
+                     align="hv", axis="tblr", ncol = 3, labels =c("a","b","c"))
 title <- ggdraw() + 
   draw_label("Nutrient imbalances (2018-2019)",
              fontface = 'bold',
